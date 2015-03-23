@@ -1,0 +1,118 @@
+{"query":"hadoop
+","apiKey":"gunwy4dr9rkvpbv4nq3effqy","result":[{"total":"160","start":"1","pageLength":"10"}],"records":[{"identifier":"doi:10.1007/978-1-4419-6524-0_5","title":"Data-Intensive
+Technologies for Cloud Computing","creators":[{"creator":"Middleton,
+Anthony M."}],"publicationName":"Handbook of Cloud
+Computing","issn":"","isbn":"978-1-4419-6524-0","doi":"10.1007/978-1-4419-6524-0_5","publisher":"Springer","publicationDate":"2010-01-01","volume":"","number":"","startingPage":"","url":"http://dx.doi.org/10.1007/978-1-4419-6524-0_5","copyright":"©2010
+Springer Science+Business Media,
+LLC"},{"identifier":"doi:10.1007/978-3-642-19294-4_9","title":"The
+HiBench Benchmark Suite: Characterization of the MapReduce-Based Data
+Analysis","creators":[{"creator":"Huang, Shengsheng"},{"creator":"Huang,
+Jie"},{"creator":"Dai, Jinquan"},{"creator":"Xie,
+Tao"},{"creator":"Huang, Bo"}],"publicationName":"New Frontiers in
+Information and Software as
+Services","issn":"","isbn":"978-3-642-19294-4","doi":"10.1007/978-3-642-19294-4_9","publisher":"Springer","publicationDate":"2011-01-01","volume":"","number":"","startingPage":"","url":"http://dx.doi.org/10.1007/978-3-642-19294-4_9","copyright":"©2011
+Springer Berlin
+Heidelberg"},{"identifier":"doi:10.1007/978-1-4302-1943-9_10","title":"Projects
+Based On Hadoop and Future Directions","creators":[{"creator":"Venner,
+Jason"}],"publicationName":"Pro
+Hadoop","issn":"","isbn":"978-1-4302-1943-9","doi":"10.1007/978-1-4302-1943-9_10","publisher":"Springer","publicationDate":"2009-01-01","volume":"","number":"","startingPage":"","url":"http://dx.doi.org/10.1007/978-1-4302-1943-9_10","copyright":"©2009
+Apress"},{"identifier":"doi:10.1007/978-3-540-89403-2_11","title":"Criteria
+to Compare Cloud Computing with Current Database
+Technology","creators":[{"creator":"Cryans,
+Jean-Daniel"},{"creator":"April, Alain"},{"creator":"Abran,
+Alain"}],"publicationName":"Software Process and Product
+Measurement","issn":"","isbn":"978-3-540-89403-2","doi":"10.1007/978-3-540-89403-2_11","publisher":"Springer","publicationDate":"2008-01-01","volume":"","number":"","startingPage":"","url":"http://dx.doi.org/10.1007/978-3-540-89403-2_11","copyright":"©2008
+Springer Berlin
+Heidelberg"},{"identifier":"doi:10.1007/978-1-4419-6524-0_9","title":"Cloudweaver:
+Adaptive and Data-Driven Workload Manager for Generic
+Clouds","creators":[{"creator":"Li, Rui"},{"creator":"Chen,
+Lei"},{"creator":"Li, Wen-Syan"}],"publicationName":"Handbook of Cloud
+Computing","issn":"","isbn":"978-1-4419-6524-0","doi":"10.1007/978-1-4419-6524-0_9","publisher":"Springer","publicationDate":"2010-01-01","volume":"","number":"","startingPage":"","url":"http://dx.doi.org/10.1007/978-1-4419-6524-0_9","copyright":"©2010
+Springer Science+Business Media,
+LLC"},{"identifier":"doi:10.1007/978-3-642-10665-1_59","title":"Research
+on Cloud Computing Based on Deep Analysis to Typical
+Platforms","creators":[{"creator":"Xia, Tianze"},{"creator":"Li,
+Zheng"},{"creator":"Yu, Nenghai"}],"publicationName":"Cloud
+Computing","issn":"","isbn":"978-3-642-10665-1","doi":"10.1007/978-3-642-10665-1_59","publisher":"Springer","publicationDate":"2009-01-01","volume":"","number":"","startingPage":"","url":"http://dx.doi.org/10.1007/978-3-642-10665-1_59","copyright":"©2009
+Springer-Verlag Berlin
+Heidelberg"},{"identifier":"doi:10.1007/978-1-4419-6524-0_23","title":"Feasibility
+Study and Experience on Using Cloud Infrastructure and Platform for
+Scientific Computing","creators":[{"creator":"Simalango, Mikael
+Fernandus"},{"creator":"Oh, Sangyoon"}],"publicationName":"Handbook of
+Cloud
+Computing","issn":"","isbn":"978-1-4419-6524-0","doi":"10.1007/978-1-4419-6524-0_23","publisher":"Springer","publicationDate":"2010-01-01","volume":"","number":"","startingPage":"","url":"http://dx.doi.org/10.1007/978-1-4419-6524-0_23","copyright":"©2010
+Springer Science+Business Media,
+LLC"},{"identifier":"doi:10.1007/978-3-642-14246-8_20","title":"Comparing Hadoop
+and Fat-Btree Based Access Method for Small File I/O
+Applications","creators":[{"creator":"Luo, Min"},{"creator":"Yokota,
+Haruo"}],"publicationName":"Web-Age Information
+Management","issn":"","isbn":"978-3-642-14246-8","doi":"10.1007/978-3-642-14246-8_20","publisher":"Springer","publicationDate":"2010-01-01","volume":"","number":"","startingPage":"","url":"http://dx.doi.org/10.1007/978-3-642-14246-8_20","copyright":"©2010
+Springer-Verlag Berlin
+Heidelberg"},{"identifier":"doi:10.1007/978-3-642-14122-5_39","title":"Enhancing
+UNICORE Storage Management Using Hadoop Distributed File
+System","creators":[{"creator":"Bari, Wasim"},{"creator":"Memon, Ahmed
+Shiraz"},{"creator":"Schuller, Bernd"}],"publicationName":"Euro-Par 2009
+– Parallel Processing
+Workshops","issn":"","isbn":"978-3-642-14122-5","doi":"10.1007/978-3-642-14122-5_39","publisher":"Springer","publicationDate":"2010-01-01","volume":"","number":"","startingPage":"","url":"http://dx.doi.org/10.1007/978-3-642-14122-5_39","copyright":"©2010
+Springer-Verlag Berlin
+Heidelberg"},{"identifier":"doi:10.1007/978-3-642-10665-1_36","title":"CloudWF:
+A Computational Workflow System for Clouds Based on
+Hadoop","creators":[{"creator":"Zhang, Chen"},{"creator":"Sterck,
+Hans"}],"publicationName":"Cloud
+Computing","issn":"","isbn":"978-3-642-10665-1","doi":"10.1007/978-3-642-10665-1_36","publisher":"Springer","publicationDate":"2009-01-01","volume":"","number":"","startingPage":"","url":"http://dx.doi.org/10.1007/978-3-642-10665-1_36","copyright":"©2009
+Springer-Verlag Berlin
+Heidelberg"}],"facets":[{"name":"subject","values":[{"value":"Computer
+Science","count":"153"},{"value":"Computer Communication
+Networks","count":"62"},{"value":"Information Systems Applications
+(incl.Internet)","count":"53"},{"value":"Information Storage and
+Retrieval","count":"39"},{"value":"Software
+Engineering","count":"35"},{"value":"System Performance and
+Evaluation","count":"34"},{"value":"Computer Systems Organization and
+Communication Networks","count":"33"},{"value":"Data Mining and
+Knowledge Discovery","count":"32"},{"value":"Database
+Management","count":"31"},{"value":"Software Engineering/Programming and
+Operating Systems","count":"28"},{"value":"Management of Computing and
+Information Systems","count":"27"},{"value":"Algorithm Analysis and
+Problem Complexity","count":"25"},{"value":"Artificial Intelligence
+(incl. Robotics)","count":"25"},{"value":"Programming
+Techniques","count":"25"},{"value":"Performance and
+Reliability","count":"24"},{"value":"Data
+Structures","count":"19"},{"value":"Multimedia Information
+Systems","count":"19"},{"value":"Information Systems and Communication
+Service","count":"17"},{"value":"Computer System
+Implementation","count":"15"},{"value":"User Interfaces and Human
+Computer
+Interaction","count":"15"}]},{"name":"keyword","values":[{"value":"MapReduce","count":"23"},{"value":"Hadoop","count":"14"},{"value":"Cloud
+computing","count":"9"},{"value":"Cloud
+Computing","count":"9"},{"value":"cloud
+computing","count":"5"},{"value":"Clustering","count":"2"},{"value":"CUDA","count":"2"},{"value":"Data
+Mining","count":"2"},{"value":"distributed
+system","count":"2"},{"value":"Dryad","count":"2"},{"value":"Grid
+Computing","count":"2"},{"value":"Map-Reduce","count":"2"},{"value":"remote
+sensing","count":"2"},{"value":"semantic
+annotation","count":"2"},{"value":"SOA","count":"2"},{"value":"Task
+Scheduling","count":"2"},{"value":"Virtualization","count":"2"},{"value":"\n
+K-means","count":"1"},{"value":"13C-MFA","count":"1"},{"value":"abstracts?","count":"1"}]},{"name":"pub","values":[{"value":"Cloud
+Computing","count":"22"},{"value":"Pro
+Hadoop","count":"11"},{"value":"Handbook of Cloud
+Computing","count":"10"},{"value":"Cluster
+Computing","count":"4"},{"value":"Database Systems for Advanced
+Applications","count":"4"},{"value":"New Frontiers in Information and
+Software as Services","count":"4"},{"value":"Advances in Grid and
+Pervasive Computing","count":"3"},{"value":"Euro-Par 2009 Parallel
+Processing","count":"3"},{"value":"Grids, Clouds and
+Virtualization","count":"3"},{"value":"Network and Parallel
+Computing","count":"3"},{"value":"Rough Set and Knowledge
+Technology","count":"3"},{"value":"Scientific and Statistical Database
+Management","count":"3"},{"value":"The Journal of
+Supercomputing","count":"3"},{"value":"BMC
+Bioinformatics","count":"2"},{"value":"Data Management in Grid and
+Peer-to-Peer Systmes","count":"2"},{"value":"Distributed Computing and
+Internet Technology","count":"2"},{"value":"Euro-Par 2009 – Parallel
+Processing Workshops","count":"2"},{"value":"Multilingual and Multimodal
+Information Access Evaluation","count":"2"},{"value":"Multimedia Tools
+and Applications","count":"2"},{"value":"Scripting
+Intelligence","count":"2"}]},{"name":"year","values":[{"value":"2011","count":"18"},{"value":"2010","count":"85"},{"value":"2009","count":"50"},{"value":"2008","count":"6"},{"value":"2007","count":"1"}]},{"name":"type","values":[{"value":"Book","count":"141"},{"value":"Journal","count":"19"}]},{"name":"country","values":[{"value":"United
+States","count":"38"},{"value":"China","count":"36"},{"value":"Germany","count":"10"},{"value":"Australia","count":"6"},{"value":"France","count":"6"},{"value":"Italy","count":"5"},{"value":"Japan","count":"5"},{"value":"South
+Korea","count":"5"},{"value":"Taiwan","count":"5"},{"value":"India","count":"4"},{"value":"Netherlands","count":"4"},{"value":"Canada","count":"3"},{"value":"Singapore","count":"3"},{"value":"Hungary","count":"2"},{"value":"Norway","count":"2"},{"value":"Romania","count":"2"},{"value":"Austria","count":"1"},{"value":"Bhutan","count":"1"},{"value":"Brazil","count":"1"},{"value":"Czech
+Republic","count":"1"}]}]}

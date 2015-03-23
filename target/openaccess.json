@@ -1,0 +1,49 @@
+{"query":"hadoop
+","apiKey":"jqs3v62pb9q84z87b98mem59","result":[{"total":"4","start":"1","pageLength":"10"}],"records":[{"identifier":"doi:10.1186/1471-2105-10-46","title":"Is
+searching full text more effective than searching
+abstracts?","publicationName":"BMC
+Bioinformatics","issn":"1471-2105","isbn":"","doi":"10.1186/1471-2105-10-46","publisher":"BioMed
+Central","publicationDate":"2009-02-03","volume":"","number":"","startingPage":"46","url":"http://dx.doi.org/10.1186/1471-2105-10-46","copyright":"©2009
+Lin; licensee BioMed Central
+Ltd."},{"identifier":"doi:10.1186/1471-2105-11-S1-S15","title":"MrsRF:
+an efficient MapReduce algorithm for analyzing large collections of
+evolutionary trees","publicationName":"BMC
+Bioinformatics","issn":"1471-2105","isbn":"","doi":"10.1186/1471-2105-11-S1-S15","publisher":"BioMed
+Central","publicationDate":"2010-01-18","volume":"","number":"","startingPage":"S15","url":"http://dx.doi.org/10.1186/1471-2105-11-S1-S15","copyright":"©2010
+Matthews and Williams; licensee BioMed Central
+Ltd."},{"identifier":"doi:10.1007/s11227-010-0503-2","title":"The
+run-time system for parallel programs using Kahn process networks on
+multi-core machines—a flexible alternative to
+MapReduce","publicationName":"The Journal of
+Supercomputing","issn":"1573-0484","isbn":"","doi":"10.1007/s11227-010-0503-2","publisher":"Springer","publicationDate":"2010-11-13","volume":"","number":"","startingPage":"1","url":"http://dx.doi.org/10.1007/s11227-010-0503-2","copyright":"©2010
+The
+Author(s)"},{"identifier":"doi:10.1007/s11042-011-0727-z","title":"Event
+retrieval in video archives using rough set theory and partially
+supervised learning","publicationName":"Multimedia Tools and
+Applications","issn":"1573-7721","isbn":"","doi":"10.1007/s11042-011-0727-z","publisher":"Springer","publicationDate":"2011-01-20","volume":"","number":"","startingPage":"1","url":"http://dx.doi.org/10.1007/s11042-011-0727-z","copyright":"©2011
+The
+Author(s)"}],"facets":[{"name":"subject","values":[{"value":"Algorithms","count":"2"},{"value":"Bioinformatics","count":"2"},{"value":"Combinatorial
+Libraries","count":"2"},{"value":"Computational
+Biology/Bioinformatics","count":"2"},{"value":"Computer Appl. in Life
+Sciences","count":"2"},{"value":"Computer
+Science","count":"2"},{"value":"Life
+Sciences","count":"2"},{"value":"Microarrays","count":"2"},{"value":"Computer
+Communication Networks","count":"1"},{"value":"Computer Science,
+general","count":"1"},{"value":"Data Structures, Cryptology and
+Information Theory","count":"1"},{"value":"Multimedia Information
+Systems","count":"1"},{"value":"Processor
+Architectures","count":"1"},{"value":"Programming Languages, Compilers,
+Interpreters","count":"1"},{"value":"Special Purpose and
+Application-Based
+Systems","count":"1"}]},{"name":"keyword","values":[{"value":"abstracts?","count":"1"},{"value":"algorithm","count":"1"},{"value":"analyzing","count":"1"},{"value":"Bagging","count":"1"},{"value":"collections","count":"1"},{"value":"effective","count":"1"},{"value":"efficient","count":"1"},{"value":"evolutionary","count":"1"},{"value":"full","count":"1"},{"value":"Kahn
+process
+networks","count":"1"},{"value":"large","count":"1"},{"value":"MapReduce","count":"1"},{"value":"more","count":"1"},{"value":"MrsRF","count":"1"},{"value":"Parallel
+processing","count":"1"},{"value":"Partially supervised
+learning","count":"1"},{"value":"Query by
+example","count":"1"},{"value":"Random
+subspace","count":"1"},{"value":"Rough set
+theory","count":"1"},{"value":"searching","count":"1"}]},{"name":"pub","values":[{"value":"BMC
+Bioinformatics","count":"2"},{"value":"Multimedia Tools and
+Applications","count":"1"},{"value":"The Journal of
+Supercomputing","count":"1"}]},{"name":"year","values":[{"value":"2011","count":"1"},{"value":"2010","count":"2"},{"value":"2009","count":"1"}]},{"name":"type","values":[{"value":"Journal","count":"4"}]},{"name":"country","values":[{"value":"Japan","count":"1"},{"value":"Norway","count":"1"},{"value":"United
+States","count":"1"}]}]}

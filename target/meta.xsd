@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.springer.com/app/meta" xmlns:meta="http://www.springer.com/app/meta" xmlns:pam="http://prismstandard.org/namespaces/pam/2.0/" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <xs:import schemaLocation="springer.xsd"/>
+  <xs:import namespace="http://prismstandard.org/namespaces/basic/2.0/" schemaLocation="prism.xsd"/>
+  <xs:import namespace="http://prismstandard.org/namespaces/pam/2.0/" schemaLocation="pam.xsd"/>
+  <xs:import namespace="http://purl.org/dc/elements/1.1/" schemaLocation="dc.xsd"/>
+  <xs:import namespace="http://www.w3.org/1999/xhtml" schemaLocation="xhtml.xsd"/>
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
+  <xs:element name="Info">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="meta:DateLoaded"/>
+        <xs:element ref="meta:Authors"/>
+        <xs:element ref="meta:Institutions"/>
+        <xs:element ref="meta:Date"/>
+        <xs:element ref="meta:Type"/>
+        <xs:element ref="meta:DOI"/>
+        <xs:element ref="meta:Title"/>
+        <xs:element ref="meta:ISXN"/>
+        <xs:element minOccurs="0" ref="meta:VolumeId"/>
+        <xs:element minOccurs="0" ref="meta:IssueId"/>
+        <xs:element maxOccurs="unbounded" ref="meta:Journal"/>
+        <xs:element maxOccurs="unbounded" ref="meta:PubName"/>
+        <xs:element minOccurs="0" ref="meta:ArticleFirstPage"/>
+        <xs:element minOccurs="0" ref="meta:Book"/>
+        <xs:element ref="meta:Publication"/>
+        <xs:element ref="meta:PublicationType"/>
+        <xs:element ref="meta:SubjectGroup"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DateLoaded" type="xs:dateTime"/>
+  <xs:element name="Authors">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="meta:Author"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Author" type="xs:string"/>
+  <xs:element name="Institutions">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="meta:Institution"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Institution">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="meta:OrgName"/>
+        <xs:element minOccurs="0" ref="meta:GeoOrg"/>
+        <xs:element minOccurs="0" ref="meta:Country"/>
+      </xs:sequence>
+      <xs:attribute name="geo"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OrgName" type="xs:string"/>
+  <xs:element name="GeoOrg" type="xs:string"/>
+  <xs:element name="Country" type="xs:string"/>
+  <xs:element name="Date" type="xs:NMTOKEN"/>
+  <xs:element name="Type" type="xs:NCName"/>
+  <xs:element name="DOI" type="xs:string"/>
+  <xs:element name="Title">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="Emphasis"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ISXN" type="xs:NMTOKEN"/>
+  <xs:element name="VolumeId" type="xs:integer"/>
+  <xs:element name="IssueId" type="xs:integer"/>
+  <xs:element name="Journal" type="xs:string"/>
+  <xs:element name="PubName" type="xs:string"/>
+  <xs:element name="ArticleFirstPage" type="xs:NMTOKEN"/>
+  <xs:element name="Book" type="xs:string"/>
+  <xs:element name="Publication" type="xs:string"/>
+  <xs:element name="PublicationType" type="xs:NCName"/>
+  <xs:element name="SubjectGroup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="meta:Subject"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Subject">
+    <xs:complexType mixed="true">
+      <xs:attribute name="Code" type="xs:NCName"/>
+      <xs:attribute name="Priority" type="xs:integer"/>
+      <xs:attribute name="Type" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

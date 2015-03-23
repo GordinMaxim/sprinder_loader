@@ -1,0 +1,339 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="/resources/spdi-pam.xsl"?>
+<response>
+	<query>mapreduce </query>
+	<apiKey>gunwy4dr9rkvpbv4nq3effqy</apiKey>
+	<result>
+		<total>288</total>
+		<start>1</start>
+		<pageLength>10</pageLength>
+	</result>
+	<records>
+		<pam:message xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pam="http://prismstandard.org/namespaces/pam/2.0/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+			<xhtml:head>
+				<pam:article>
+					<dc:identifier>doi:10.1007/s11265-010-0563-9</dc:identifier>
+					<dc:title>Automated Mapping of the MapReduce Pattern onto Parallel Computing Platforms</dc:title>
+					<dc:creator>Liu, Qiang</dc:creator>
+					<dc:creator>Todman, Tim</dc:creator>
+					<dc:creator>Luk, Wayne</dc:creator>
+					<dc:creator>Constantinides, George A.</dc:creator>
+					<prism:publicationName>Journal of Signal Processing Systems</prism:publicationName>
+					<prism:issn>1939-8115</prism:issn>
+					<prism:doi>10.1007/s11265-010-0563-9</prism:doi>
+					<dc:publisher>Springer</dc:publisher>
+					<prism:publicationDate>2010-12-15</prism:publicationDate>
+					<prism:volume>20</prism:volume>
+	                <prism:number>1</prism:number>
+					<prism:startingPage>1</prism:startingPage>
+					<prism:url>http://dx.doi.org/10.1007/s11265-010-0563-9</prism:url>
+					<prism:copyright>©2010 Springer Science+Business Media, LLC</prism:copyright>
+				</pam:article>
+			</xhtml:head>
+			<xhtml:body>
+				<h1>Abstract</h1><p>The  pattern can be found in many important applications, and can be exploited to significantly improve system parallelism. Unlike previous work, in which designers explicitly specify how to exploit the pattern, we develop a compilation approach for mapping applications with the MapReduce pattern automatically onto Field-Programmable Gate Array (FPGA) based parallel computing platforms. We formulate the problem of mapping the MapReduce pattern to hardware as a geometric programming model; this model exploits loop-level parallelism and pipelining to give an optimal implementation on given hardware resources. The approach is capable of handling single and multiple nested MapReduce patterns. Furthermore, we explore important variations of MapReduce, such as using a linear structure rather than a tree structure for merging intermediate results generated in parallel. Results for six benchmarks show that our approach can find performance-optimal designs in the design space, improving system performance by up to 170 times compared to the initial designs on the target platform.</p>
+			</xhtml:body>
+		</pam:message>
+		<pam:message xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pam="http://prismstandard.org/namespaces/pam/2.0/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+			<xhtml:head>
+				<pam:article>
+					<dc:identifier>doi:10.1007/978-1-4419-6524-0_5</dc:identifier>
+					<dc:title>Data-Intensive Technologies for Cloud Computing</dc:title>
+					<dc:creator>Middleton, Anthony M.</dc:creator>
+					<prism:publicationName>Handbook of Cloud Computing</prism:publicationName>
+					<prism:isbn>978-1-4419-6524-0</prism:isbn>
+					<prism:doi>10.1007/978-1-4419-6524-0_5</prism:doi>
+					<dc:publisher>Springer</dc:publisher>
+					<prism:publicationDate>2010-01-01</prism:publicationDate>
+					<prism:url>http://dx.doi.org/10.1007/978-1-4419-6524-0_5</prism:url>
+					<prism:copyright>©2010 Springer Science+Business Media, LLC</prism:copyright>
+				</pam:article>
+			</xhtml:head>
+			<xhtml:body>
+				<h1>Abstract</h1><p>As a result of the continuing information explosion, many organizations are drowning in data and the resulting “data gap” or inability to process this information and use it effectively is increasing at an alarming rate. Data-intensive computing represents a new computing paradigm (Kouzes, Anderson, Elbert, Gorton, &amp; Gracio, 2009) which can address the data gap using scalable parallel processing to allow government, commercial organizations, and research environments to process massive amounts of data and implement applications previously thought to be impractical or infeasible. Cloud computing provides the opportunity for organizations with limited internal resources to implement large-scale data-intensive computing applications in a cost-effective manner.</p>
+			</xhtml:body>
+		</pam:message>
+		<pam:message xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pam="http://prismstandard.org/namespaces/pam/2.0/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+			<xhtml:head>
+				<pam:article>
+					<dc:identifier>doi:10.1007/978-1-84996-241-4_7</dc:identifier>
+					<dc:title>A Peer-to-Peer Framework for Supporting MapReduce Applications in Dynamic Cloud Environments</dc:title>
+					<dc:creator>Marozzo, Fabrizio</dc:creator>
+					<dc:creator>Talia, Domenico</dc:creator>
+					<dc:creator>Trunfio, Paolo</dc:creator>
+					<prism:publicationName>Cloud Computing</prism:publicationName>
+					<prism:isbn>978-1-84996-241-4</prism:isbn>
+					<prism:doi>10.1007/978-1-84996-241-4_7</prism:doi>
+					<dc:publisher>Springer</dc:publisher>
+					<prism:publicationDate>2010-01-01</prism:publicationDate>
+					<prism:url>http://dx.doi.org/10.1007/978-1-84996-241-4_7</prism:url>
+					<prism:copyright>©2010 Springer-Verlag London Limited</prism:copyright>
+				</pam:article>
+			</xhtml:head>
+			<xhtml:body>
+				<h1>Abstract</h1><p>MapReduce is a programming model widely used in Cloud computing environments for processing large data sets in a highly parallel way. MapReduce implementations are based on a master-slave model. The failure of a slave is managed by re-assigning its task to another slave, while master failures are not managed by current MapReduce implementations, as designers consider failures unlikely in reliable Cloud systems. On the contrary, node failures – including master failures – are likely to happen in dynamic Cloud scenarios, where computing nodes may join and leave the network at an unpredictable rate. Therefore, providing effective mechanisms to manage master failures is fundamental to exploit the MapReduce model in the implementation of data-intensive applications in those dynamic Cloud environments where current MapReduce implementations could be unreliable. The goal of our work is to extend the master-slave architecture of current MapReduce implementations to make it more suitable for dynamic Cloud scenarios. In particular, in this chapter, we present a Peer-to-Peer (P2P)-MapReduce framework that exploits a P2P model to manage participation of intermittent nodes, master failures, and MapReduce job recovery in a decentralized but effective way.</p>
+			</xhtml:body>
+		</pam:message>
+		<pam:message xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pam="http://prismstandard.org/namespaces/pam/2.0/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+			<xhtml:head>
+				<pam:article>
+					<dc:identifier>doi:10.1007/978-0-85729-049-6_9</dc:identifier>
+					<dc:title>Application-Level Interoperability Across Grids and Clouds</dc:title>
+					<dc:creator>Jha, Shantenu</dc:creator>
+					<dc:creator>Luckow, Andre</dc:creator>
+					<dc:creator>Merzky, Andre</dc:creator>
+					<dc:creator>Erdely, Miklos</dc:creator>
+					<dc:creator>Sehgal, Saurabh</dc:creator>
+					<prism:publicationName>Grids, Clouds and Virtualization</prism:publicationName>
+					<prism:isbn>978-0-85729-049-6</prism:isbn>
+					<prism:doi>10.1007/978-0-85729-049-6_9</prism:doi>
+					<dc:publisher>Springer</dc:publisher>
+					<prism:publicationDate>2011-01-01</prism:publicationDate>
+					<prism:url>http://dx.doi.org/10.1007/978-0-85729-049-6_9</prism:url>
+					<prism:copyright>©2011 Springer-Verlag London Limited</prism:copyright>
+				</pam:article>
+			</xhtml:head>
+			<xhtml:body>
+				<h1>Abstract</h1><p>Application-level interoperability is defined as the ability of an application to utilize multiple distributed heterogeneous resources. Such interoperability is becoming increasingly important with increasing volumes of data, multiple sources of data as well as resource types. The primary aim of this chapter is to understand different ways in which application-level interoperability can be provided across distributed infrastructure. We achieve this by (i) using the canonical wordcount application, based on an enhanced version of MapReduce that scales-out across clusters, clouds, and HPC resources, (ii) establishing how SAGA enables the execution of wordcount application using MapReduce and other programming models such as Sphere concurrently, and (iii) demonstrating the scale-out of ensemble-based biomolecular simulations across multiple resources. We show user-level control of the relative placement of compute and data and also provide simple performance measures and analysis of SAGA–MapReduce when using multiple, different, heterogeneous infrastructures concurrently for the same problem instance. Finally, we discuss Azure and some of the system-level abstractions that it provides and show how it is used to support ensemble-based biomolecular simulations.</p>
+			</xhtml:body>
+		</pam:message>
+		<pam:message xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pam="http://prismstandard.org/namespaces/pam/2.0/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+			<xhtml:head>
+				<pam:article>
+					<dc:identifier>doi:10.1186/1471-2105-11-S1-S15</dc:identifier>
+					<dc:title>MrsRF: an efficient MapReduce algorithm for analyzing large collections of evolutionary trees</dc:title>
+					<dc:creator>Matthews, Suzanne</dc:creator>
+					<dc:creator>Williams, Tiffani</dc:creator>
+					<prism:publicationName>BMC Bioinformatics</prism:publicationName>
+					<prism:issn>1471-2105</prism:issn>
+					<prism:doi>10.1186/1471-2105-11-S1-S15</prism:doi>
+					<dc:publisher>BioMed Central</dc:publisher>
+					<prism:publicationDate>2010-01-18</prism:publicationDate>
+					<prism:volume>201</prism:volume>
+	                <prism:number>12</prism:number>
+					<prism:startingPage>S15</prism:startingPage>
+					<prism:url>http://dx.doi.org/10.1186/1471-2105-11-S1-S15</prism:url>
+					<prism:copyright>©2010 Matthews and Williams; licensee BioMed Central Ltd.</prism:copyright>
+				</pam:article>
+			</xhtml:head>
+			<xhtml:body>
+				<h1>Abstract</h1>
+			</xhtml:body>
+		</pam:message>
+		<pam:message xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pam="http://prismstandard.org/namespaces/pam/2.0/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+			<xhtml:head>
+				<pam:article>
+					<dc:identifier>doi:10.1007/978-1-4419-6524-0_16</dc:identifier>
+					<dc:title>Scientific Services on the Cloud</dc:title>
+					<dc:creator>Chapman, David</dc:creator>
+					<dc:creator>Joshi, Karuna P.</dc:creator>
+					<dc:creator>Yesha, Yelena</dc:creator>
+					<dc:creator>Halem, Milt</dc:creator>
+					<dc:creator>Yesha, Yaacov</dc:creator>
+					<dc:creator>Nguyen, Phuong</dc:creator>
+					<prism:publicationName>Handbook of Cloud Computing</prism:publicationName>
+					<prism:isbn>978-1-4419-6524-0</prism:isbn>
+					<prism:doi>10.1007/978-1-4419-6524-0_16</prism:doi>
+					<dc:publisher>Springer</dc:publisher>
+					<prism:publicationDate>2010-01-01</prism:publicationDate>
+					<prism:url>http://dx.doi.org/10.1007/978-1-4419-6524-0_16</prism:url>
+					<prism:copyright>©2010 Springer Science+Business Media, LLC</prism:copyright>
+				</pam:article>
+			</xhtml:head>
+			<xhtml:body>
+				<h1>Abstract</h1><p>Scientific Computing was one of the first every applications for parallel and distributed computation. To this date, scientific applications remain some of the most compute intensive, and have inspired creation of petaflop compute infrastructure such as the Oak Ridge Jaguar and Los Alamos RoadRunner. Large dedicated hardware infrastructure has become both a blessing and a curse to the scientific community. Scientists are interested in cloud computing for much the same reason as businesses and other professionals. The hardware is provided, maintained, and administrated by a third party. Software abstraction and virtualization provide reliability, and fault tolerance. Graduated fees allow for multi-scale prototyping and execution. Cloud computing resources are only a few clicks away, and by far the easiest high performance distributed platform to gain access to. There may still be dedicated infrastructure for ultra-scale science, but the cloud can easily play a major part of the scientific computing initiative.</p>
+			</xhtml:body>
+		</pam:message>
+		<pam:message xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pam="http://prismstandard.org/namespaces/pam/2.0/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+			<xhtml:head>
+				<pam:article>
+					<dc:identifier>doi:10.1007/978-3-642-03644-6_35</dc:identifier>
+					<dc:title>Evaluating SPLASH-2 Applications Using MapReduce</dc:title>
+					<dc:creator>Zhu, Shengkai</dc:creator>
+					<dc:creator>Xiao, Zhiwei</dc:creator>
+					<dc:creator>Chen, Haibo</dc:creator>
+					<dc:creator>Chen, Rong</dc:creator>
+					<dc:creator>Zhang, Weihua</dc:creator>
+					<dc:creator>Zang, Binyu</dc:creator>
+					<prism:publicationName>Advanced Parallel Processing Technologies</prism:publicationName>
+					<prism:isbn>978-3-642-03644-6</prism:isbn>
+					<prism:doi>10.1007/978-3-642-03644-6_35</prism:doi>
+					<dc:publisher>Springer</dc:publisher>
+					<prism:publicationDate>2009-01-01</prism:publicationDate>
+					<prism:url>http://dx.doi.org/10.1007/978-3-642-03644-6_35</prism:url>
+					<prism:copyright>©2009 Springer Berlin Heidelberg</prism:copyright>
+				</pam:article>
+			</xhtml:head>
+			<xhtml:body>
+				<h1>Abstract</h1><p>MapReduce has been prevalent for running data-parallel applications. By hiding other non-functionality parts such as parallelism, fault tolerance and load balance from programmers, MapReduce significantly simplifies the programming of large clusters. Due to the mentioned features of MapReduce above, researchers have also explored the use of MapReduce on other application domains, such as machine learning, textual retrieval and statistical translation, among others.</p><p>In this paper, we study the feasibility of running typical supercomputing applications using the MapReduce framework. We port two applications (Water Spatial and Radix Sort) from the Stanford SPLASH-2 suite to MapReduce. By completely evaluating them in Hadoop, an open-source MapReduce framework for clusters, we analyze the major performance bottleneck of them in the MapReduce framework. Based on this, we also provide several suggestions in enhancing the MapReduce framework to suite these applications.</p>
+			</xhtml:body>
+		</pam:message>
+		<pam:message xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pam="http://prismstandard.org/namespaces/pam/2.0/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+			<xhtml:head>
+				<pam:article>
+					<dc:identifier>doi:10.1007/978-1-4419-6524-0_23</dc:identifier>
+					<dc:title>Feasibility Study and Experience on Using Cloud Infrastructure and Platform for Scientific Computing</dc:title>
+					<dc:creator>Simalango, Mikael Fernandus</dc:creator>
+					<dc:creator>Oh, Sangyoon</dc:creator>
+					<prism:publicationName>Handbook of Cloud Computing</prism:publicationName>
+					<prism:isbn>978-1-4419-6524-0</prism:isbn>
+					<prism:doi>10.1007/978-1-4419-6524-0_23</prism:doi>
+					<dc:publisher>Springer</dc:publisher>
+					<prism:publicationDate>2010-01-01</prism:publicationDate>
+					<prism:url>http://dx.doi.org/10.1007/978-1-4419-6524-0_23</prism:url>
+					<prism:copyright>©2010 Springer Science+Business Media, LLC</prism:copyright>
+				</pam:article>
+			</xhtml:head>
+			<xhtml:body>
+				<h1>Abstract</h1><p>In the academia, conducting experiments, gathering and processing data are trivial tasks. However, in some circumstances for example when processing large-set of data, method to accomplish the task can be tricky and non-trivial, not to mention problematic. When it comes to numerical float or array, processing a very large set of this kind of data will require superior computing power. Some entities with splendid compute nodes may process the data directly in their own infrastructure. Yet, providing decent infrastructure for processing large data sets or resource-extensive task can be a challenge for other entities. Infrastructure owned by an entity conducting the computation can be insufficient or just enough to execute the tasks above the minimum requirements. A common practice for infrastructure-limited research entity in dealing with such kind of situation is to outsource the compute task to external party with more superior compute power in order to reduce waiting time for producing the result of data processing.</p>
+			</xhtml:body>
+		</pam:message>
+		<pam:message xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pam="http://prismstandard.org/namespaces/pam/2.0/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+			<xhtml:head>
+				<pam:article>
+					<dc:identifier>doi:10.1186/1471-2105-10-46</dc:identifier>
+					<dc:title>Is searching full text more effective than searching abstracts?</dc:title>
+					<dc:creator>Lin, Jimmy</dc:creator>
+					<prism:publicationName>BMC Bioinformatics</prism:publicationName>
+					<prism:issn>1471-2105</prism:issn>
+					<prism:doi>10.1186/1471-2105-10-46</prism:doi>
+					<dc:publisher>BioMed Central</dc:publisher>
+					<prism:publicationDate>2009-02-03</prism:publicationDate>
+					<prism:volume/>
+					<prism:number/>
+					<prism:startingPage>46</prism:startingPage>
+					<prism:url>http://dx.doi.org/10.1186/1471-2105-10-46</prism:url>
+					<prism:copyright>©2009 Lin; licensee BioMed Central Ltd.</prism:copyright>
+				</pam:article>
+			</xhtml:head>
+			<xhtml:body>
+				<h1>Abstract</h1>
+			</xhtml:body>
+		</pam:message>
+		<pam:message xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pam="http://prismstandard.org/namespaces/pam/2.0/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+			<xhtml:head>
+				<pam:article>
+					<dc:identifier>doi:10.1007/978-3-642-03770-2_30</dc:identifier>
+					<dc:title>Towards Efficient MapReduce Using MPI</dc:title>
+					<dc:creator>Hoefler, Torsten</dc:creator>
+					<dc:creator>Lumsdaine, Andrew</dc:creator>
+					<dc:creator>Dongarra, Jack</dc:creator>
+					<prism:publicationName>Recent Advances in Parallel Virtual Machine and Message Passing Interface</prism:publicationName>
+					<prism:isbn>978-3-642-03770-2</prism:isbn>
+					<prism:doi>10.1007/978-3-642-03770-2_30</prism:doi>
+					<dc:publisher>Springer</dc:publisher>
+					<prism:publicationDate>2009-01-01</prism:publicationDate>
+					<prism:url>http://dx.doi.org/10.1007/978-3-642-03770-2_30</prism:url>
+					<prism:copyright>©2009 Springer Berlin Heidelberg</prism:copyright>
+				</pam:article>
+			</xhtml:head>
+			<xhtml:body>
+				<h1>Abstract</h1><p>MapReduce is an emerging programming paradigm for data-parallel applications. We discuss common strategies to implement a MapReduce runtime and propose an optimized implementation on top of MPI. Our implementation combines redistribution and reduce and moves them . This approach especially benefits applications with a limited number of output keys in the map phase. We also show how anticipated MPI-2.2 and MPI-3 features, such as  and nonblocking collective operations, can be used to implement and optimize MapReduce with a performance improvement of up to 25% on 127 cluster nodes. Finally, we discuss additional features that would enable MPI to more efficiently support all MapReduce applications.</p>
+			</xhtml:body>
+		</pam:message>
+	</records>
+	<facets>
+		<facet name="subject">
+			<facet-value count="260">Computer Science</facet-value>
+			<facet-value count="109">Computer Communication Networks</facet-value>
+			<facet-value count="99">Information Systems Applications (incl.Internet)</facet-value>
+			<facet-value count="79">Information Storage and Retrieval</facet-value>
+			<facet-value count="73">Database Management</facet-value>
+			<facet-value count="69">Software Engineering</facet-value>
+			<facet-value count="67">Data Mining and Knowledge Discovery</facet-value>
+			<facet-value count="64">Artificial Intelligence (incl. Robotics)</facet-value>
+			<facet-value count="53">Algorithm Analysis and Problem Complexity</facet-value>
+			<facet-value count="43">System Performance and Evaluation</facet-value>
+			<facet-value count="42">Computer Systems Organization and Communication Networks</facet-value>
+			<facet-value count="39">Programming Techniques</facet-value>
+			<facet-value count="38">Software Engineering/Programming and Operating Systems</facet-value>
+			<facet-value count="37">Data Structures</facet-value>
+			<facet-value count="37">Management of Computing and Information Systems</facet-value>
+			<facet-value count="35">Multimedia Information Systems</facet-value>
+			<facet-value count="28">Information Systems and Communication Service</facet-value>
+			<facet-value count="28">Performance and Reliability</facet-value>
+			<facet-value count="27">Operating Systems</facet-value>
+			<facet-value count="25">Processor Architectures</facet-value>
+		</facet>
+		<facet name="keyword">
+			<facet-value count="32">MapReduce</facet-value>
+			<facet-value count="13">Hadoop</facet-value>
+			<facet-value count="12">Cloud Computing</facet-value>
+			<facet-value count="11">Cloud computing</facet-value>
+			<facet-value count="9">cloud computing</facet-value>
+			<facet-value count="5">Virtualization</facet-value>
+			<facet-value count="3">Grid Computing</facet-value>
+			<facet-value count="3">Ontology</facet-value>
+			<facet-value count="2">Abstractions</facet-value>
+			<facet-value count="2">Bioinformatics</facet-value>
+			<facet-value count="2">Classification</facet-value>
+			<facet-value count="2">Clustering</facet-value>
+			<facet-value count="2">CUDA</facet-value>
+			<facet-value count="2">Data mining</facet-value>
+			<facet-value count="2">Data Mining</facet-value>
+			<facet-value count="2">data processing</facet-value>
+			<facet-value count="2">Distributed systems</facet-value>
+			<facet-value count="2">Dryad</facet-value>
+			<facet-value count="2">Grid computing</facet-value>
+			<facet-value count="2">Map-Reduce</facet-value>
+		</facet>
+		<facet name="pub">
+			<facet-value count="27">Cloud Computing</facet-value>
+			<facet-value count="7">Cluster Computing</facet-value>
+			<facet-value count="7">Handbook of Cloud Computing</facet-value>
+			<facet-value count="5">Advances in Grid and Pervasive Computing</facet-value>
+			<facet-value count="5">Frontiers of Computer Science in China</facet-value>
+			<facet-value count="5">Multimedia Tools and Applications</facet-value>
+			<facet-value count="5">New Frontiers in Information and Software as Services</facet-value>
+			<facet-value count="5">Pro Hadoop</facet-value>
+			<facet-value count="4">Data Management in Grid and Peer-to-Peer Systmes</facet-value>
+			<facet-value count="4">Database Systems for Advanced Applications</facet-value>
+			<facet-value count="4">Grids, Clouds and Virtualization</facet-value>
+			<facet-value count="4">Languages and Compilers for Parallel Computing</facet-value>
+			<facet-value count="4">Scientific and Statistical Database Management</facet-value>
+			<facet-value count="4">The Semantic Web – ISWC 2010</facet-value>
+			<facet-value count="4">The Semantic Web: Research and Applications</facet-value>
+			<facet-value count="4">Web-Age Information Management</facet-value>
+			<facet-value count="3">Database and Expert Systems Applications</facet-value>
+			<facet-value count="3">Databases in Networked Information Systems</facet-value>
+			<facet-value count="3">Job Scheduling Strategies for Parallel Processing</facet-value>
+			<facet-value count="3">Journal of Grid Computing</facet-value>
+		</facet>
+		<facet name="year">
+			<facet-value count="38">2011</facet-value>
+			<facet-value count="142">2010</facet-value>
+			<facet-value count="72">2009</facet-value>
+			<facet-value count="22">2008</facet-value>
+			<facet-value count="9">2007</facet-value>
+			<facet-value count="1">2006</facet-value>
+			<facet-value count="4">2005</facet-value>
+		</facet>
+		<facet name="type">
+			<facet-value count="235">Book</facet-value>
+			<facet-value count="53">Journal</facet-value>
+		</facet>
+		<facet name="country">
+			<facet-value count="95">United States</facet-value>
+			<facet-value count="49">China</facet-value>
+			<facet-value count="25">Germany</facet-value>
+			<facet-value count="15">Italy</facet-value>
+			<facet-value count="9">France</facet-value>
+			<facet-value count="8">Japan</facet-value>
+			<facet-value count="7">Greece</facet-value>
+			<facet-value count="7">South Korea</facet-value>
+			<facet-value count="6">Australia</facet-value>
+			<facet-value count="6">Switzerland</facet-value>
+			<facet-value count="6">Taiwan</facet-value>
+			<facet-value count="6">United Kingdom</facet-value>
+			<facet-value count="5">Singapore</facet-value>
+			<facet-value count="4">Austria</facet-value>
+			<facet-value count="4">Canada</facet-value>
+			<facet-value count="4">Netherlands</facet-value>
+			<facet-value count="4">Norway</facet-value>
+			<facet-value count="4">Russia</facet-value>
+			<facet-value count="4">Spain</facet-value>
+			<facet-value count="3">Brazil</facet-value>
+		</facet>
+	</facets>
+</response>

@@ -1,0 +1,609 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="/resources/spdi-image-xml.xsl"?>
+<response>
+	<query>mapreduce </query>
+	<result>
+		<total>36</total>
+		<start>1</start>
+		<pageLength>10</pageLength>
+	</result>
+	<records>
+		<record>
+			<Image Id="1-10.1007_978-1-4419-6524-0_5-15">
+				<Caption>
+					<p>Hadoop vs. HPCC feature comparison</p>
+				</Caption>
+				<File>
+					<Path Type="thumb">http://c0000571.cdn2.cloudfiles.rackspacecloud.com/table.jpg</Path>
+				</File>
+				<Location>http://www.springerimages.com/images/Computer Science/1-10.1007_978-1-4419-6524-0_5-15</Location>
+				<FullText>
+					<p>
+Table 5.2 provides a summary comparison of the key features of the
+hardware and software architectures of both system platforms based
+on the analysis of each architecture presented in this chapter. .
+					</p>
+				</FullText>
+				<Authors>
+					<Author>Middleton, Anthony M.</Author>
+				</Authors>
+				<Institutions>
+					<Institution>LexisNexis Risk Solutions</Institution>
+				</Institutions>
+				<ArticleTitle>Data-Intensive Technologies for Cloud Computing</ArticleTitle>
+				<DOI>10.1007/978-1-4419-6524-0_5</DOI>
+				<PubDate>2010-01-01</PubDate>
+				<SourceType>Book</SourceType>
+				<SourceTitle>Handbook of Cloud Computing</SourceTitle>
+				<ChapterId>5</ChapterId>
+				<BookTitleId>189790</BookTitleId>
+				<BookDOI>10.1007/978-1-4419-6524-0</BookDOI>
+				<ISXN>978-1-4419-6523-3</ISXN>
+				<SubjectCollection>Computer Science</SubjectCollection>
+				<Subjects>
+					<Subject Type="Primary">Computer Science</Subject>
+					<Subject Type="Secondary" Priority="1" Code="SCI13022">Computer Communication Networks</Subject>
+					<Subject Type="Secondary" Priority="2" Code="SCT24035">Communications Engineering, Networks</Subject>
+					<Subject Type="Secondary" Priority="3" Code="SCI13006">Computer Systems Organization and Communication Networks</Subject>
+					<Subject Type="Secondary" Priority="4" Code="SCI24067">Management of Computing and Information Systems</Subject>
+				</Subjects>
+				<Keywords/>
+				<OpenAccess>false</OpenAccess>
+				<CopyrightHolder>Springer Science+Business Media, LLC</CopyrightHolder>
+				<ImageType>Table</ImageType>
+				<Provider>Springer</Provider>
+			</Image>
+		</record>
+		<record>
+			<Image Id="5-10.1186_1471-2105-11-S1-S15-0">
+				<Caption>
+					<p>Word count example using the MapReduce paradigm</p>
+				</Caption>
+				<File>
+					<Path Type="thumb">http://c0000571.cdn2.cloudfiles.rackspacecloud.com/BMC/THUMB_1471-2105-11-S1-S15-1.jpg</Path>
+					<Path Type="medium">http://www.springerimages.com/img/Images/BMC/MEDIUM_1471-2105-11-S1-S15-1.jpg</Path>
+					<Path Type="large">http://www.springerimages.com/img/Images/BMC/LARGE_1471-2105-11-S1-S15-1.jpg</Path>
+				</File>
+				<Location>http://www.springerimages.com/images/Life Sciences/5-10.1186_1471-2105-11-S1-S15-0</Location>
+				<FullText>
+					<p>
+						<p xmlns="http://www.w3.org/1999/xhtml">Figure 1 gives an overview of how the MapReduce paradigm
+operates in order to count the number of words in a file.</p>
+					</p><p>
+In Figure 1 , the fifth reducer takes in as input the keyfishand
+the associated list1-1-1-1, as "fish" occurred four times in the
+input file.
+					</p>
+				</FullText>
+				<VolumeId>11</VolumeId>
+				<IssueId>Suppl 1</IssueId>
+				<Authors>
+					<Author>Matthews, Suzanne</Author>
+					<Author>Williams, Tiffani</Author>
+				</Authors>
+				<Institutions>
+					<Institution>Department of Computer Science and Engineering, Texas A&amp;M University, College Station, TX</Institution>
+				</Institutions>
+				<ArticleTitle>MrsRF: an efficient MapReduce algorithm for analyzing large collections of evolutionary trees</ArticleTitle>
+				<DOI>10.1186/1471-2105-11-S1-S15</DOI>
+				<PubDate>2010-01-18</PubDate>
+				<SourceType>Article</SourceType>
+				<SourceTitle>BMC Bioinformatics</SourceTitle>
+				<ISXN ISSN="1471-2105" ISBN="" EISBN="">1471-2105</ISXN>
+				<SubjectCollection>Life Sciences</SubjectCollection>
+				<Subjects>
+					<Subject Type="Primary">Life Sciences</Subject>
+					<Subject Type="Secondary" Priority="1">Bioinformatics</Subject>
+					<Subject Type="Secondary" Priority="2">Microarrays</Subject>
+					<Subject Type="Secondary" Priority="3">Computational Biology/Bioinformatics</Subject>
+					<Subject Type="Secondary" Priority="4">Computer Appl. in Life Sciences</Subject>
+					<Subject Type="Secondary" Priority="5">Combinatorial Libraries</Subject>
+					<Subject Type="Secondary" Priority="6">Algorithms</Subject>
+				</Subjects>
+				<Keywords>
+					<Keyword>MapReduce</Keyword>
+					<Keyword>analyzing</Keyword>
+					<Keyword>MrsRF</Keyword>
+					<Keyword>evolutionary</Keyword>
+					<Keyword>trees</Keyword>
+					<Keyword>collections</Keyword>
+					<Keyword>large</Keyword>
+					<Keyword>efficient</Keyword>
+					<Keyword>algorithm</Keyword>
+				</Keywords>
+				<OpenAccess>true</OpenAccess>
+				<CopyrightHolder>Matthews and Williams; licensee BioMed Central Ltd.</CopyrightHolder>
+				<ImageType>Line</ImageType>
+				<Provider>BioMed Central</Provider>
+			</Image>
+		</record>
+		<record>
+			<Image Id="1-10.1007_978-1-84996-241-4_7-0">
+				<Caption>
+					<p>Execution phases in a generic MapReduce application</p>
+				</Caption>
+				<File>
+					<Path Type="thumb">http://c0000571.cdn2.cloudfiles.rackspacecloud.com/SpringerBooks/BSE=4198/BOK=978-1-84996-241-4/PRT=2/CHP=7_10.1007-978-1-84996-241-4_7/MediaObjects/THUMB_189023_1_En_7_Fig1_HTML.jpg</Path>
+					<Path Type="medium">http://www.springerimages.com/img/Images/SpringerBooks/BSE=4198/BOK=978-1-84996-241-4/PRT=2/CHP=7_10.1007-978-1-84996-241-4_7/MediaObjects/MEDIUM_189023_1_En_7_Fig1_HTML.jpg</Path>
+					<Path Type="large">http://www.springerimages.com/img/Images/SpringerBooks/BSE=4198/BOK=978-1-84996-241-4/PRT=2/CHP=7_10.1007-978-1-84996-241-4_7/MediaObjects/LARGE_189023_1_En_7_Fig1_HTML.jpg</Path>
+				</File>
+				<Location>http://www.springerimages.com/images/Computer Science/1-10.1007_978-1-84996-241-4_7-0</Location>
+				<FullText>
+					<p>
+7.1): 1.
+						<p xmlns="http://www.w3.org/1999/xhtml">A master process receives a “job configuration” describing the
+MapReduce job to be executed.</p>
+					</p>
+				</FullText>
+				<VolumeId>0</VolumeId>
+				<Authors>
+					<Author>Marozzo, Fabrizio</Author>
+					<Author>Talia, Domenico</Author>
+					<Author>Trunfio, Paolo</Author>
+				</Authors>
+				<Institutions>
+					<Institution>University of Calabria</Institution>
+				</Institutions>
+				<ArticleTitle>A Peer-to-Peer Framework for Supporting MapReduce Applications in Dynamic Cloud Environments</ArticleTitle>
+				<DOI>10.1007/978-1-84996-241-4_7</DOI>
+				<PubDate>2010-01-01</PubDate>
+				<SourceType>Book</SourceType>
+				<SourceTitle>Cloud Computing</SourceTitle>
+				<ChapterId>7</ChapterId>
+				<BookTitleId>189023</BookTitleId>
+				<BookDOI>10.1007/978-1-84996-241-4</BookDOI>
+				<ISXN>978-1-84996-240-7</ISXN>
+				<SubjectCollection>Computer Science</SubjectCollection>
+				<Subjects>
+					<Subject Type="Primary">Computer Science</Subject>
+					<Subject Type="Secondary" Priority="1" Code="SCI13049">System Performance and Evaluation</Subject>
+					<Subject Type="Secondary" Priority="2" Code="SCI12077">Performance and Reliability</Subject>
+				</Subjects>
+				<Keywords/>
+				<OpenAccess>false</OpenAccess>
+				<CopyrightHolder>Springer London</CopyrightHolder>
+				<ImageType>Line</ImageType>
+				<Provider>Springer</Provider>
+			</Image>
+		</record>
+		<record>
+			<Image Id="1-10.1007_978-1-4419-6524-0_23-4">
+				<Caption>
+					<p>Some cloud-based projects for scientific purpose</p>
+				</Caption>
+				<File>
+					<Path Type="thumb">http://c0000571.cdn2.cloudfiles.rackspacecloud.com/table.jpg</Path>
+				</File>
+				<Location>http://www.springerimages.com/images/Computer Science/1-10.1007_978-1-4419-6524-0_23-4</Location>
+				<FullText>
+					<p>
+The summary is listed as Table 23.1.
+					</p><p>
+						<p xmlns="http://www.w3.org/1999/xhtml">Observing Table 23.1 more scrupulously, we can find out that
+MapReduce implementation in Hadoop has been the dominant approach
+in parallelization recently.</p>
+					</p><p>
+						<p xmlns="http://www.w3.org/1999/xhtml">We can also notice in Table 23.1 that academia have begun using
+cloud infrastructure and platform offered by the enterprises.</p>
+					</p>
+				</FullText>
+				<Authors>
+					<Author>Simalango, Mikael Fernandus</Author>
+					<Author>Oh, Sangyoon</Author>
+				</Authors>
+				<Institutions>
+					<Institution>Ajou University</Institution>
+				</Institutions>
+				<ArticleTitle>Feasibility Study and Experience on Using Cloud Infrastructure and Platform for Scientific Computing</ArticleTitle>
+				<DOI>10.1007/978-1-4419-6524-0_23</DOI>
+				<PubDate>2010-01-01</PubDate>
+				<SourceType>Book</SourceType>
+				<SourceTitle>Handbook of Cloud Computing</SourceTitle>
+				<ChapterId>23</ChapterId>
+				<BookTitleId>189790</BookTitleId>
+				<BookDOI>10.1007/978-1-4419-6524-0</BookDOI>
+				<ISXN>978-1-4419-6523-3</ISXN>
+				<SubjectCollection>Computer Science</SubjectCollection>
+				<Subjects>
+					<Subject Type="Primary">Computer Science</Subject>
+					<Subject Type="Secondary" Priority="1" Code="SCI13022">Computer Communication Networks</Subject>
+					<Subject Type="Secondary" Priority="2" Code="SCT24035">Communications Engineering, Networks</Subject>
+					<Subject Type="Secondary" Priority="3" Code="SCI13006">Computer Systems Organization and Communication Networks</Subject>
+					<Subject Type="Secondary" Priority="4" Code="SCI24067">Management of Computing and Information Systems</Subject>
+				</Subjects>
+				<Keywords/>
+				<OpenAccess>false</OpenAccess>
+				<CopyrightHolder>Springer Science+Business Media, LLC</CopyrightHolder>
+				<ImageType>Table</ImageType>
+				<Provider>Springer</Provider>
+			</Image>
+		</record>
+		<record>
+			<Image Id="1-10.1007_978-1-84996-241-4_7-1">
+				<Caption>
+					<p>Basic architecture of a P2P-MapReduce network</p>
+				</Caption>
+				<File>
+					<Path Type="thumb">http://c0000571.cdn2.cloudfiles.rackspacecloud.com/SpringerBooks/BSE=4198/BOK=978-1-84996-241-4/PRT=2/CHP=7_10.1007-978-1-84996-241-4_7/MediaObjects/THUMB_189023_1_En_7_Fig2_HTML.jpg</Path>
+					<Path Type="medium">http://www.springerimages.com/img/Images/SpringerBooks/BSE=4198/BOK=978-1-84996-241-4/PRT=2/CHP=7_10.1007-978-1-84996-241-4_7/MediaObjects/MEDIUM_189023_1_En_7_Fig2_HTML.jpg</Path>
+					<Path Type="large">http://www.springerimages.com/img/Images/SpringerBooks/BSE=4198/BOK=978-1-84996-241-4/PRT=2/CHP=7_10.1007-978-1-84996-241-4_7/MediaObjects/LARGE_189023_1_En_7_Fig2_HTML.jpg</Path>
+				</File>
+				<Location>http://www.springerimages.com/images/Computer Science/1-10.1007_978-1-84996-241-4_7-1</Location>
+				<FullText>
+					<p>
+7.2: user (U), master (M), and slave (S).
+					</p><p>
+7.2, where U is the user node that submits a MapReduce job, nodes M
+are the masters, and nodes S are the slaves..
+					</p><p>
+7.2, are “logical” networks in the sense that queries to M-net (or
+S-net) are actually submitted to the whole MapReduceGroup, but
+restricted to nodes having the attribute Role set to “Master” (or
+“Slave”) using the SRDI mechanisms..
+					</p>
+				</FullText>
+				<VolumeId>0</VolumeId>
+				<Authors>
+					<Author>Marozzo, Fabrizio</Author>
+					<Author>Talia, Domenico</Author>
+					<Author>Trunfio, Paolo</Author>
+				</Authors>
+				<Institutions>
+					<Institution>University of Calabria</Institution>
+				</Institutions>
+				<ArticleTitle>A Peer-to-Peer Framework for Supporting MapReduce Applications in Dynamic Cloud Environments</ArticleTitle>
+				<DOI>10.1007/978-1-84996-241-4_7</DOI>
+				<PubDate>2010-01-01</PubDate>
+				<SourceType>Book</SourceType>
+				<SourceTitle>Cloud Computing</SourceTitle>
+				<ChapterId>7</ChapterId>
+				<BookTitleId>189023</BookTitleId>
+				<BookDOI>10.1007/978-1-84996-241-4</BookDOI>
+				<ISXN>978-1-84996-240-7</ISXN>
+				<SubjectCollection>Computer Science</SubjectCollection>
+				<Subjects>
+					<Subject Type="Primary">Computer Science</Subject>
+					<Subject Type="Secondary" Priority="1" Code="SCI13049">System Performance and Evaluation</Subject>
+					<Subject Type="Secondary" Priority="2" Code="SCI12077">Performance and Reliability</Subject>
+				</Subjects>
+				<Keywords/>
+				<OpenAccess>false</OpenAccess>
+				<CopyrightHolder>Springer London</CopyrightHolder>
+				<ImageType>Line</ImageType>
+				<Provider>Springer</Provider>
+			</Image>
+		</record>
+		<record>
+			<Image Id="1-10.1007_978-1-4419-6524-0_5-14">
+				<Caption>
+					<p>Pig vs. ECL feature comparison</p>
+				</Caption>
+				<File>
+					<Path Type="thumb">http://c0000571.cdn2.cloudfiles.rackspacecloud.com/table.jpg</Path>
+				</File>
+				<Location>http://www.springerimages.com/images/Computer Science/1-10.1007_978-1-4419-6524-0_5-14</Location>
+				<FullText>
+					<p>
+Table 5.1 provides a feature to feature comparison between the Pig
+and ECL languages and their execution environments. .
+					</p>
+				</FullText>
+				<Authors>
+					<Author>Middleton, Anthony M.</Author>
+				</Authors>
+				<Institutions>
+					<Institution>LexisNexis Risk Solutions</Institution>
+				</Institutions>
+				<ArticleTitle>Data-Intensive Technologies for Cloud Computing</ArticleTitle>
+				<DOI>10.1007/978-1-4419-6524-0_5</DOI>
+				<PubDate>2010-01-01</PubDate>
+				<SourceType>Book</SourceType>
+				<SourceTitle>Handbook of Cloud Computing</SourceTitle>
+				<ChapterId>5</ChapterId>
+				<BookTitleId>189790</BookTitleId>
+				<BookDOI>10.1007/978-1-4419-6524-0</BookDOI>
+				<ISXN>978-1-4419-6523-3</ISXN>
+				<SubjectCollection>Computer Science</SubjectCollection>
+				<Subjects>
+					<Subject Type="Primary">Computer Science</Subject>
+					<Subject Type="Secondary" Priority="1" Code="SCI13022">Computer Communication Networks</Subject>
+					<Subject Type="Secondary" Priority="2" Code="SCT24035">Communications Engineering, Networks</Subject>
+					<Subject Type="Secondary" Priority="3" Code="SCI13006">Computer Systems Organization and Communication Networks</Subject>
+					<Subject Type="Secondary" Priority="4" Code="SCI24067">Management of Computing and Information Systems</Subject>
+				</Subjects>
+				<Keywords/>
+				<OpenAccess>false</OpenAccess>
+				<CopyrightHolder>Springer Science+Business Media, LLC</CopyrightHolder>
+				<ImageType>Table</ImageType>
+				<Provider>Springer</Provider>
+			</Image>
+		</record>
+		<record>
+			<Image Id="1-10.1007_978-1-84996-241-4_7-3">
+				<Caption>
+					<p>UML state diagram describing the behavior of a generic node in the P2P-MapReduce framework</p>
+				</Caption>
+				<File>
+					<Path Type="thumb">http://c0000571.cdn2.cloudfiles.rackspacecloud.com/SpringerBooks/BSE=4198/BOK=978-1-84996-241-4/PRT=2/CHP=7_10.1007-978-1-84996-241-4_7/MediaObjects/THUMB_189023_1_En_7_Fig4_HTML.jpg</Path>
+					<Path Type="medium">http://www.springerimages.com/img/Images/SpringerBooks/BSE=4198/BOK=978-1-84996-241-4/PRT=2/CHP=7_10.1007-978-1-84996-241-4_7/MediaObjects/MEDIUM_189023_1_En_7_Fig4_HTML.jpg</Path>
+					<Path Type="large">http://www.springerimages.com/img/Images/SpringerBooks/BSE=4198/BOK=978-1-84996-241-4/PRT=2/CHP=7_10.1007-978-1-84996-241-4_7/MediaObjects/LARGE_189023_1_En_7_Fig4_HTML.jpg</Path>
+				</File>
+				<Location>http://www.springerimages.com/images/Computer Science/1-10.1007_978-1-84996-241-4_7-3</Location>
+				<FullText>
+					<p>
+Figure 7.4 shows such a state diagram modeled using the UML State
+Diagram formalism. .
+					</p><p>
+7.4, and communicates with the other threads by invoking local
+routines having the same interface of the JXTA pipes.
+					</p>
+				</FullText>
+				<VolumeId>0</VolumeId>
+				<Authors>
+					<Author>Marozzo, Fabrizio</Author>
+					<Author>Talia, Domenico</Author>
+					<Author>Trunfio, Paolo</Author>
+				</Authors>
+				<Institutions>
+					<Institution>University of Calabria</Institution>
+				</Institutions>
+				<ArticleTitle>A Peer-to-Peer Framework for Supporting MapReduce Applications in Dynamic Cloud Environments</ArticleTitle>
+				<DOI>10.1007/978-1-84996-241-4_7</DOI>
+				<PubDate>2010-01-01</PubDate>
+				<SourceType>Book</SourceType>
+				<SourceTitle>Cloud Computing</SourceTitle>
+				<ChapterId>7</ChapterId>
+				<BookTitleId>189023</BookTitleId>
+				<BookDOI>10.1007/978-1-84996-241-4</BookDOI>
+				<ISXN>978-1-84996-240-7</ISXN>
+				<SubjectCollection>Computer Science</SubjectCollection>
+				<Subjects>
+					<Subject Type="Primary">Computer Science</Subject>
+					<Subject Type="Secondary" Priority="1" Code="SCI13049">System Performance and Evaluation</Subject>
+					<Subject Type="Secondary" Priority="2" Code="SCI12077">Performance and Reliability</Subject>
+				</Subjects>
+				<Keywords/>
+				<OpenAccess>false</OpenAccess>
+				<CopyrightHolder>Springer London</CopyrightHolder>
+				<ImageType>Line</ImageType>
+				<Provider>Springer</Provider>
+			</Image>
+		</record>
+		<record>
+			<Image Id="1-10.1007_978-1-4419-6524-0_5-2">
+				<Caption>
+					<p>MapReduce key-value processing (Nicosia, 2009)</p>
+				</Caption>
+				<File>
+					<Path Type="thumb">http://c0000571.cdn2.cloudfiles.rackspacecloud.com/SpringerBooks/BOK=978-1-4419-6524-0/PRT=1/CHP=5_10.1007-978-1-4419-6524-0_5/MediaObjects/THUMB_189790_1_En_5_Fig3_HTML.jpg</Path>
+					<Path Type="medium">http://www.springerimages.com/img/Images/SpringerBooks/BOK=978-1-4419-6524-0/PRT=1/CHP=5_10.1007-978-1-4419-6524-0_5/MediaObjects/MEDIUM_189790_1_En_5_Fig3_HTML.jpg</Path>
+					<Path Type="large">http://www.springerimages.com/img/Images/SpringerBooks/BOK=978-1-4419-6524-0/PRT=1/CHP=5_10.1007-978-1-4419-6524-0_5/MediaObjects/LARGE_189790_1_En_5_Fig3_HTML.jpg</Path>
+				</File>
+				<Location>http://www.springerimages.com/images/Computer Science/1-10.1007_978-1-4419-6524-0_5-2</Location>
+				<FullText>
+					<p>
+						<p xmlns="http://www.w3.org/1999/xhtml">Figure 5.3 shows the MapReduce architecture and key-value
+processing in more detail.</p>
+					</p>
+				</FullText>
+				<Authors>
+					<Author>Middleton, Anthony M.</Author>
+				</Authors>
+				<Institutions>
+					<Institution>LexisNexis Risk Solutions</Institution>
+				</Institutions>
+				<ArticleTitle>Data-Intensive Technologies for Cloud Computing</ArticleTitle>
+				<DOI>10.1007/978-1-4419-6524-0_5</DOI>
+				<PubDate>2010-01-01</PubDate>
+				<SourceType>Book</SourceType>
+				<SourceTitle>Handbook of Cloud Computing</SourceTitle>
+				<ChapterId>5</ChapterId>
+				<BookTitleId>189790</BookTitleId>
+				<BookDOI>10.1007/978-1-4419-6524-0</BookDOI>
+				<ISXN>978-1-4419-6523-3</ISXN>
+				<SubjectCollection>Computer Science</SubjectCollection>
+				<Subjects>
+					<Subject Type="Primary">Computer Science</Subject>
+					<Subject Type="Secondary" Priority="1" Code="SCI13022">Computer Communication Networks</Subject>
+					<Subject Type="Secondary" Priority="2" Code="SCT24035">Communications Engineering, Networks</Subject>
+					<Subject Type="Secondary" Priority="3" Code="SCI13006">Computer Systems Organization and Communication Networks</Subject>
+					<Subject Type="Secondary" Priority="4" Code="SCI24067">Management of Computing and Information Systems</Subject>
+				</Subjects>
+				<Keywords/>
+				<OpenAccess>false</OpenAccess>
+				<CopyrightHolder>Springer Science+Business Media, LLC</CopyrightHolder>
+				<ImageType>Line</ImageType>
+				<Provider>Springer</Provider>
+			</Image>
+		</record>
+		<record>
+			<Image Id="5-10.1186_1471-2105-11-S1-S15-1">
+				<Caption>
+					<p>Global partitioning scheme of the MrsRF algorithm</p>
+				</Caption>
+				<File>
+					<Path Type="thumb">http://c0000571.cdn2.cloudfiles.rackspacecloud.com/BMC/THUMB_1471-2105-11-S1-S15-2.jpg</Path>
+					<Path Type="medium">http://www.springerimages.com/img/Images/BMC/MEDIUM_1471-2105-11-S1-S15-2.jpg</Path>
+					<Path Type="large">http://www.springerimages.com/img/Images/BMC/LARGE_1471-2105-11-S1-S15-2.jpg</Path>
+				</File>
+				<Location>http://www.springerimages.com/images/Life Sciences/5-10.1186_1471-2105-11-S1-S15-1</Location>
+				<FullText>
+					<p>
+For N = 4, the N nodes are partitioned into a 2 × 2 grid (see
+Figure 2 ).
+					</p><p>
+For example, consider node N <sub xmlns="http://www.w3.org/1999/xhtml">2</sub> in Figure 2 .
+					</p><p>
+In Figure 2 ,= { T <sub xmlns="http://www.w3.org/1999/xhtml">t /2</sub> , ..., T <sub xmlns="http://www.w3.org/1999/xhtml">t -1</sub> } and=
+{ T <sub xmlns="http://www.w3.org/1999/xhtml">0</sub> , ..., T <sub xmlns="http://www.w3.org/1999/xhtml">t /2 - 1</sub> } on node N
+						<sub xmlns="http://www.w3.org/1999/xhtml">2</sub> .
+					</p>
+				</FullText>
+				<VolumeId>11</VolumeId>
+				<IssueId>Suppl 1</IssueId>
+				<Authors>
+					<Author>Matthews, Suzanne</Author>
+					<Author>Williams, Tiffani</Author>
+				</Authors>
+				<Institutions>
+					<Institution>Department of Computer Science and Engineering, Texas A&amp;M University, College Station, TX</Institution>
+				</Institutions>
+				<ArticleTitle>MrsRF: an efficient MapReduce algorithm for analyzing large collections of evolutionary trees</ArticleTitle>
+				<DOI>10.1186/1471-2105-11-S1-S15</DOI>
+				<PubDate>2010-01-18</PubDate>
+				<SourceType>Article</SourceType>
+				<SourceTitle>BMC Bioinformatics</SourceTitle>
+				<ISXN ISSN="1471-2105" ISBN="" EISBN="">1471-2105</ISXN>
+				<SubjectCollection>Life Sciences</SubjectCollection>
+				<Subjects>
+					<Subject Type="Primary">Life Sciences</Subject>
+					<Subject Type="Secondary" Priority="1">Bioinformatics</Subject>
+					<Subject Type="Secondary" Priority="2">Microarrays</Subject>
+					<Subject Type="Secondary" Priority="3">Computational Biology/Bioinformatics</Subject>
+					<Subject Type="Secondary" Priority="4">Computer Appl. in Life Sciences</Subject>
+					<Subject Type="Secondary" Priority="5">Combinatorial Libraries</Subject>
+					<Subject Type="Secondary" Priority="6">Algorithms</Subject>
+				</Subjects>
+				<Keywords>
+					<Keyword>MapReduce</Keyword>
+					<Keyword>analyzing</Keyword>
+					<Keyword>MrsRF</Keyword>
+					<Keyword>evolutionary</Keyword>
+					<Keyword>trees</Keyword>
+					<Keyword>collections</Keyword>
+					<Keyword>large</Keyword>
+					<Keyword>efficient</Keyword>
+					<Keyword>algorithm</Keyword>
+				</Keywords>
+				<OpenAccess>true</OpenAccess>
+				<CopyrightHolder>Matthews and Williams; licensee BioMed Central Ltd.</CopyrightHolder>
+				<ImageType>Line</ImageType>
+				<Provider>BioMed Central</Provider>
+			</Image>
+		</record>
+		<record>
+			<Image Id="5-10.1186_1471-2105-11-S1-S15-2">
+				<Caption>
+					<p>Phase 1 of the MrsRF( p , q ) algorithm</p>
+				</Caption>
+				<File>
+					<Path Type="thumb">http://c0000571.cdn2.cloudfiles.rackspacecloud.com/BMC/THUMB_1471-2105-11-S1-S15-3.jpg</Path>
+					<Path Type="medium">http://www.springerimages.com/img/Images/BMC/MEDIUM_1471-2105-11-S1-S15-3.jpg</Path>
+					<Path Type="large">http://www.springerimages.com/img/Images/BMC/LARGE_1471-2105-11-S1-S15-3.jpg</Path>
+				</File>
+				<Location>http://www.springerimages.com/images/Life Sciences/5-10.1186_1471-2105-11-S1-S15-2</Location>
+				<FullText>
+					<p>
+						<p xmlns="http://www.w3.org/1999/xhtml">In Figure 3 , there are two input files, each containing two
+trees each.</p>
+					</p><p>
+For example, in Figure 3 , the first mapper emits the following
+(key, value) pairs: ( AB | CDE , (1, T 0, T 1)), ( ABC | DE , (1, T
+0)), and ( ABD | CE , (1, T 1)).
+					</p><p>
+Continuing with our example from Figure 3 , the first reducer
+processes the lists associated with keys ABD | CE , and ABC | DE .
+					</p>
+				</FullText>
+				<VolumeId>11</VolumeId>
+				<IssueId>Suppl 1</IssueId>
+				<Authors>
+					<Author>Matthews, Suzanne</Author>
+					<Author>Williams, Tiffani</Author>
+				</Authors>
+				<Institutions>
+					<Institution>Department of Computer Science and Engineering, Texas A&amp;M University, College Station, TX</Institution>
+				</Institutions>
+				<ArticleTitle>MrsRF: an efficient MapReduce algorithm for analyzing large collections of evolutionary trees</ArticleTitle>
+				<DOI>10.1186/1471-2105-11-S1-S15</DOI>
+				<PubDate>2010-01-18</PubDate>
+				<SourceType>Article</SourceType>
+				<SourceTitle>BMC Bioinformatics</SourceTitle>
+				<ISXN ISSN="1471-2105" ISBN="" EISBN="">1471-2105</ISXN>
+				<SubjectCollection>Life Sciences</SubjectCollection>
+				<Subjects>
+					<Subject Type="Primary">Life Sciences</Subject>
+					<Subject Type="Secondary" Priority="1">Bioinformatics</Subject>
+					<Subject Type="Secondary" Priority="2">Microarrays</Subject>
+					<Subject Type="Secondary" Priority="3">Computational Biology/Bioinformatics</Subject>
+					<Subject Type="Secondary" Priority="4">Computer Appl. in Life Sciences</Subject>
+					<Subject Type="Secondary" Priority="5">Combinatorial Libraries</Subject>
+					<Subject Type="Secondary" Priority="6">Algorithms</Subject>
+				</Subjects>
+				<Keywords>
+					<Keyword>MapReduce</Keyword>
+					<Keyword>analyzing</Keyword>
+					<Keyword>MrsRF</Keyword>
+					<Keyword>evolutionary</Keyword>
+					<Keyword>trees</Keyword>
+					<Keyword>collections</Keyword>
+					<Keyword>large</Keyword>
+					<Keyword>efficient</Keyword>
+					<Keyword>algorithm</Keyword>
+				</Keywords>
+				<OpenAccess>true</OpenAccess>
+				<CopyrightHolder>Matthews and Williams; licensee BioMed Central Ltd.</CopyrightHolder>
+				<ImageType>Line</ImageType>
+				<Provider>BioMed Central</Provider>
+			</Image>
+		</record>
+	</records>
+	<facets>
+		<facet name="subject">
+			<facet-value count="23">Computer Science</facet-value>
+			<facet-value count="14">Management of Computing and Information Systems</facet-value>
+			<facet-value count="13">Algorithms</facet-value>
+			<facet-value count="13">Bioinformatics</facet-value>
+			<facet-value count="13">Combinatorial Libraries</facet-value>
+			<facet-value count="13">Computational Biology/Bioinformatics</facet-value>
+			<facet-value count="13">Computer Appl. in Life Sciences</facet-value>
+			<facet-value count="13">Life Sciences</facet-value>
+			<facet-value count="13">Microarrays</facet-value>
+			<facet-value count="11">Communications Engineering, Networks</facet-value>
+			<facet-value count="11">Computer Communication Networks</facet-value>
+			<facet-value count="11">Computer Systems Organization and Communication Networks</facet-value>
+			<facet-value count="11">System Performance and Evaluation</facet-value>
+			<facet-value count="8">Performance and Reliability</facet-value>
+			<facet-value count="3">Software Engineering</facet-value>
+			<facet-value count="3">Special Purpose and Application-Based Systems</facet-value>
+			<facet-value count="1">Computer Appl. in Administrative Data Processing</facet-value>
+			<facet-value count="1">Data Mining and Knowledge Discovery</facet-value>
+			<facet-value count="1">Database Management</facet-value>
+			<facet-value count="1">Document Preparation and Text Processing</facet-value>
+		</facet>
+		<facet name="keyword">
+			<facet-value count="10">algorithm</facet-value>
+			<facet-value count="10">analyzing</facet-value>
+			<facet-value count="10">collections</facet-value>
+			<facet-value count="10">efficient</facet-value>
+			<facet-value count="10">evolutionary</facet-value>
+			<facet-value count="10">large</facet-value>
+			<facet-value count="10">MapReduce</facet-value>
+			<facet-value count="10">MrsRF</facet-value>
+			<facet-value count="10">trees</facet-value>
+			<facet-value count="3">abstracts?</facet-value>
+			<facet-value count="3">effective</facet-value>
+			<facet-value count="3">full</facet-value>
+			<facet-value count="3">more</facet-value>
+			<facet-value count="3">searching</facet-value>
+			<facet-value count="3">text</facet-value>
+			<facet-value count="3">than</facet-value>
+		</facet>
+		<facet name="year">
+			<facet-value count="3">2011</facet-value>
+			<facet-value count="30">2010</facet-value>
+			<facet-value count="3">2009</facet-value>
+		</facet>
+		<facet name="type">
+			<facet-value count="21">Line</facet-value>
+			<facet-value count="8">Table</facet-value>
+			<facet-value count="7">Image</facet-value>
+		</facet>
+		<facet name="imagetype">
+			<facet-value count="21">Line</facet-value>
+			<facet-value count="8">Table</facet-value>
+			<facet-value count="7">Image</facet-value>
+		</facet>
+	</facets>
+</response>

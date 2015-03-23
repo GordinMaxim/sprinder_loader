@@ -1,0 +1,165 @@
+{"query":"hadoop
+","apiKey":"","result":[{"total":"12","start":"1","pageLength":"10"}],"records":[{"identifier":"1-10.1007_978-1-4419-6524-0_5-15","caption":"Hadoop
+vs. HPCC feature
+comparison","file":[{"path":"http://c0000571.cdn2.cloudfiles.rackspacecloud.com/table.jpg","type":"thumb"}],"authors":[{"author":"Middleton,
+Anthony M."}],"institutions":[{"institution":"LexisNexis Risk
+Solutions"}],"articleTitle":"Data-Intensive Technologies for Cloud
+Computing","DOI":"10.1007/978-1-4419-6524-0_5","pubDate":"2010-01-01","sourceType":"Book","sourceTitle":"Handbook
+of Cloud
+Computing","chapterId":"5","bookTitleId":"189790","bookDOI":"10.1007/978-1-4419-6524-0","ISXN":"978-1-4419-6523-3","subjectCollection":"Computer
+Science","subjects":[{"subject":"Computer
+Science","type":"Primary"},{"subject":"Computer Communication
+Networks","type":"Secondary"},{"subject":"Communications Engineering,
+Networks","type":"Secondary"},{"subject":"Computer Systems Organization
+and Communication Networks","type":"Secondary"},{"subject":"Management
+of Computing and Information
+Systems","type":"Secondary"}],"keywords":[],"openAccess":"false","imageType":"Table","provider":"Springer"},{"identifier":"1-10.1007_978-1-4419-6524-0_23-4","caption":"Some
+cloud-based projects for scientific
+purpose","file":[{"path":"http://c0000571.cdn2.cloudfiles.rackspacecloud.com/table.jpg","type":"thumb"}],"authors":[{"author":"Simalango,
+Mikael Fernandus"},{"author":"Oh,
+Sangyoon"}],"institutions":[{"institution":"Ajou
+University"}],"articleTitle":"Feasibility Study and Experience on Using
+Cloud Infrastructure and Platform for Scientific
+Computing","DOI":"10.1007/978-1-4419-6524-0_23","pubDate":"2010-01-01","sourceType":"Book","sourceTitle":"Handbook
+of Cloud
+Computing","chapterId":"23","bookTitleId":"189790","bookDOI":"10.1007/978-1-4419-6524-0","ISXN":"978-1-4419-6523-3","subjectCollection":"Computer
+Science","subjects":[{"subject":"Computer
+Science","type":"Primary"},{"subject":"Computer Communication
+Networks","type":"Secondary"},{"subject":"Communications Engineering,
+Networks","type":"Secondary"},{"subject":"Computer Systems Organization
+and Communication Networks","type":"Secondary"},{"subject":"Management
+of Computing and Information
+Systems","type":"Secondary"}],"keywords":[],"openAccess":"false","imageType":"Table","provider":"Springer"},{"identifier":"1-10.1007_978-1-4419-6524-0_5-14","caption":"Pig
+vs. ECL feature
+comparison","file":[{"path":"http://c0000571.cdn2.cloudfiles.rackspacecloud.com/table.jpg","type":"thumb"}],"authors":[{"author":"Middleton,
+Anthony M."}],"institutions":[{"institution":"LexisNexis Risk
+Solutions"}],"articleTitle":"Data-Intensive Technologies for Cloud
+Computing","DOI":"10.1007/978-1-4419-6524-0_5","pubDate":"2010-01-01","sourceType":"Book","sourceTitle":"Handbook
+of Cloud
+Computing","chapterId":"5","bookTitleId":"189790","bookDOI":"10.1007/978-1-4419-6524-0","ISXN":"978-1-4419-6523-3","subjectCollection":"Computer
+Science","subjects":[{"subject":"Computer
+Science","type":"Primary"},{"subject":"Computer Communication
+Networks","type":"Secondary"},{"subject":"Communications Engineering,
+Networks","type":"Secondary"},{"subject":"Computer Systems Organization
+and Communication Networks","type":"Secondary"},{"subject":"Management
+of Computing and Information
+Systems","type":"Secondary"}],"keywords":[],"openAccess":"false","imageType":"Table","provider":"Springer"},{"identifier":"1-10.1007_978-1-4419-6524-0_22-0","caption":"Summarizing
+the data cloud
+technologies","file":[{"path":"http://c0000571.cdn2.cloudfiles.rackspacecloud.com/table.jpg","type":"thumb"}],"authors":[{"author":"Pallickara,
+Sangmi Lee"},{"author":"Pallickara, Shrideep"},{"author":"Pierce,
+Marlon"}],"institutions":[{"institution":"Colorado State
+University"},{"institution":"Indiana
+University"}],"articleTitle":"Scientific Data Management in the Cloud: A
+Survey of Technologies, Approaches and
+Challenges","DOI":"10.1007/978-1-4419-6524-0_22","pubDate":"2010-01-01","sourceType":"Book","sourceTitle":"Handbook
+of Cloud
+Computing","chapterId":"22","bookTitleId":"189790","bookDOI":"10.1007/978-1-4419-6524-0","ISXN":"978-1-4419-6523-3","subjectCollection":"Computer
+Science","subjects":[{"subject":"Computer
+Science","type":"Primary"},{"subject":"Computer Communication
+Networks","type":"Secondary"},{"subject":"Communications Engineering,
+Networks","type":"Secondary"},{"subject":"Computer Systems Organization
+and Communication Networks","type":"Secondary"},{"subject":"Management
+of Computing and Information
+Systems","type":"Secondary"}],"keywords":[],"openAccess":"false","imageType":"Table","provider":"Springer"},{"identifier":"1-10.1007_978-1-4419-6524-0_5-10","caption":"ECL
+code
+example","file":[{"path":"http://c0000571.cdn2.cloudfiles.rackspacecloud.com/SpringerBooks/BOK=978-1-4419-6524-0/PRT=1/CHP=5_10.1007-978-1-4419-6524-0_5/MediaObjects/THUMB_189790_1_En_5_Fig11_HTML.jpg","type":"thumb"},{"path":"http://www.springerimages.com/img/Images/SpringerBooks/BOK=978-1-4419-6524-0/PRT=1/CHP=5_10.1007-978-1-4419-6524-0_5/MediaObjects/MEDIUM_189790_1_En_5_Fig11_HTML.jpg","type":"medium"},{"path":"http://www.springerimages.com/img/Images/SpringerBooks/BOK=978-1-4419-6524-0/PRT=1/CHP=5_10.1007-978-1-4419-6524-0_5/MediaObjects/LARGE_189790_1_En_5_Fig11_HTML.jpg","type":"large"}],"authors":[{"author":"Middleton,
+Anthony M."}],"institutions":[{"institution":"LexisNexis Risk
+Solutions"}],"articleTitle":"Data-Intensive Technologies for Cloud
+Computing","DOI":"10.1007/978-1-4419-6524-0_5","pubDate":"2010-01-01","sourceType":"Book","sourceTitle":"Handbook
+of Cloud
+Computing","chapterId":"5","bookTitleId":"189790","bookDOI":"10.1007/978-1-4419-6524-0","ISXN":"978-1-4419-6523-3","subjectCollection":"Computer
+Science","subjects":[{"subject":"Computer
+Science","type":"Primary"},{"subject":"Computer Communication
+Networks","type":"Secondary"},{"subject":"Communications Engineering,
+Networks","type":"Secondary"},{"subject":"Computer Systems Organization
+and Communication Networks","type":"Secondary"},{"subject":"Management
+of Computing and Information
+Systems","type":"Secondary"}],"keywords":[],"openAccess":"false","imageType":"Image","provider":"Springer"},{"identifier":"1-10.1007_978-1-4419-6524-0_5-12","caption":"Hadoop
+terabyte sort benchmark
+results","file":[{"path":"http://c0000571.cdn2.cloudfiles.rackspacecloud.com/SpringerBooks/BOK=978-1-4419-6524-0/PRT=1/CHP=5_10.1007-978-1-4419-6524-0_5/MediaObjects/THUMB_189790_1_En_5_Fig13_HTML.jpg","type":"thumb"},{"path":"http://www.springerimages.com/img/Images/SpringerBooks/BOK=978-1-4419-6524-0/PRT=1/CHP=5_10.1007-978-1-4419-6524-0_5/MediaObjects/MEDIUM_189790_1_En_5_Fig13_HTML.jpg","type":"medium"},{"path":"http://www.springerimages.com/img/Images/SpringerBooks/BOK=978-1-4419-6524-0/PRT=1/CHP=5_10.1007-978-1-4419-6524-0_5/MediaObjects/LARGE_189790_1_En_5_Fig13_HTML.jpg","type":"large"}],"authors":[{"author":"Middleton,
+Anthony M."}],"institutions":[{"institution":"LexisNexis Risk
+Solutions"}],"articleTitle":"Data-Intensive Technologies for Cloud
+Computing","DOI":"10.1007/978-1-4419-6524-0_5","pubDate":"2010-01-01","sourceType":"Book","sourceTitle":"Handbook
+of Cloud
+Computing","chapterId":"5","bookTitleId":"189790","bookDOI":"10.1007/978-1-4419-6524-0","ISXN":"978-1-4419-6523-3","subjectCollection":"Computer
+Science","subjects":[{"subject":"Computer
+Science","type":"Primary"},{"subject":"Computer Communication
+Networks","type":"Secondary"},{"subject":"Communications Engineering,
+Networks","type":"Secondary"},{"subject":"Computer Systems Organization
+and Communication Networks","type":"Secondary"},{"subject":"Management
+of Computing and Information
+Systems","type":"Secondary"}],"keywords":[],"openAccess":"false","imageType":"Image","provider":"Springer"},{"identifier":"1-10.1007_978-1-4419-6524-0_5-4","caption":"Hadoop
+MapReduce (White,
+2008)","file":[{"path":"http://c0000571.cdn2.cloudfiles.rackspacecloud.com/SpringerBooks/BOK=978-1-4419-6524-0/PRT=1/CHP=5_10.1007-978-1-4419-6524-0_5/MediaObjects/THUMB_189790_1_En_5_Fig5_HTML.jpg","type":"thumb"},{"path":"http://www.springerimages.com/img/Images/SpringerBooks/BOK=978-1-4419-6524-0/PRT=1/CHP=5_10.1007-978-1-4419-6524-0_5/MediaObjects/MEDIUM_189790_1_En_5_Fig5_HTML.jpg","type":"medium"},{"path":"http://www.springerimages.com/img/Images/SpringerBooks/BOK=978-1-4419-6524-0/PRT=1/CHP=5_10.1007-978-1-4419-6524-0_5/MediaObjects/LARGE_189790_1_En_5_Fig5_HTML.jpg","type":"large"}],"authors":[{"author":"Middleton,
+Anthony M."}],"institutions":[{"institution":"LexisNexis Risk
+Solutions"}],"articleTitle":"Data-Intensive Technologies for Cloud
+Computing","DOI":"10.1007/978-1-4419-6524-0_5","pubDate":"2010-01-01","sourceType":"Book","sourceTitle":"Handbook
+of Cloud
+Computing","chapterId":"5","bookTitleId":"189790","bookDOI":"10.1007/978-1-4419-6524-0","ISXN":"978-1-4419-6523-3","subjectCollection":"Computer
+Science","subjects":[{"subject":"Computer
+Science","type":"Primary"},{"subject":"Computer Communication
+Networks","type":"Secondary"},{"subject":"Communications Engineering,
+Networks","type":"Secondary"},{"subject":"Computer Systems Organization
+and Communication Networks","type":"Secondary"},{"subject":"Management
+of Computing and Information
+Systems","type":"Secondary"}],"keywords":[],"openAccess":"false","imageType":"Line","provider":"Springer"},{"identifier":"1-10.1007_978-1-4419-6524-0_23-5","caption":"Infrastructure
+for running a tiny compute
+cloud","file":[{"path":"http://c0000571.cdn2.cloudfiles.rackspacecloud.com/table.jpg","type":"thumb"}],"authors":[{"author":"Simalango,
+Mikael Fernandus"},{"author":"Oh,
+Sangyoon"}],"institutions":[{"institution":"Ajou
+University"}],"articleTitle":"Feasibility Study and Experience on Using
+Cloud Infrastructure and Platform for Scientific
+Computing","DOI":"10.1007/978-1-4419-6524-0_23","pubDate":"2010-01-01","sourceType":"Book","sourceTitle":"Handbook
+of Cloud
+Computing","chapterId":"23","bookTitleId":"189790","bookDOI":"10.1007/978-1-4419-6524-0","ISXN":"978-1-4419-6523-3","subjectCollection":"Computer
+Science","subjects":[{"subject":"Computer
+Science","type":"Primary"},{"subject":"Computer Communication
+Networks","type":"Secondary"},{"subject":"Communications Engineering,
+Networks","type":"Secondary"},{"subject":"Computer Systems Organization
+and Communication Networks","type":"Secondary"},{"subject":"Management
+of Computing and Information
+Systems","type":"Secondary"}],"keywords":[],"openAccess":"false","imageType":"Table","provider":"Springer"},{"identifier":"1-10.1007_978-1-84996-226-1_9-7","caption":"Computing
+word counts with
+MapReduce","file":[{"path":"http://c0000571.cdn2.cloudfiles.rackspacecloud.com/SpringerBooks/BSE=3191/BOK=978-1-84996-226-1/CHP=9_10.1007-978-1-84996-226-1_9/MediaObjects/THUMB_190426_1_En_9_Fig8_HTML.jpg","type":"thumb"},{"path":"http://www.springerimages.com/img/Images/SpringerBooks/BSE=3191/BOK=978-1-84996-226-1/CHP=9_10.1007-978-1-84996-226-1_9/MediaObjects/MEDIUM_190426_1_En_9_Fig8_HTML.jpg","type":"medium"},{"path":"http://www.springerimages.com/img/Images/SpringerBooks/BSE=3191/BOK=978-1-84996-226-1/CHP=9_10.1007-978-1-84996-226-1_9/MediaObjects/LARGE_190426_1_En_9_Fig8_HTML.jpg","type":"large"}],"authors":[{"author":"Weiss,
+Sholom M."},{"author":"Indurkhya, Nitin"},{"author":"Zhang,
+Tong"}],"institutions":[{"institution":"IBM
+Corporation"},{"institution":"University of New South
+Wales"},{"institution":"Rutgers University"}],"articleTitle":"Emerging
+Directions","DOI":"10.1007/978-1-84996-226-1_9","pubDate":"2010-01-01","sourceType":"Book","sourceTitle":"Fundamentals
+of Predictive Text
+Mining","chapterId":"9","bookTitleId":"190426","bookDOI":"10.1007/978-1-84996-226-1","ISXN":"978-1-84996-225-4","subjectCollection":"Computer
+Science","subjects":[{"subject":"Computer
+Science","type":"Primary"},{"subject":"Data Mining and Knowledge
+Discovery","type":"Secondary"},{"subject":"Document Preparation and Text
+Processing","type":"Secondary"},{"subject":"Computer Appl. in
+Administrative Data
+Processing","type":"Secondary"},{"subject":"Information Storage and
+Retrieval","type":"Secondary"},{"subject":"Database
+Management","type":"Secondary"}],"keywords":[],"openAccess":"false","imageType":"Image","provider":"Springer"},{"identifier":"1-10.1007_978-1-4419-6524-0_1-15","caption":"The
+leading vendors of cloud computing
+components","file":[{"path":"http://c0000571.cdn2.cloudfiles.rackspacecloud.com/table.jpg","type":"thumb"}],"authors":[{"author":"Furht,
+Borko"}],"institutions":[{"institution":"Florida Atlantic
+University"}],"articleTitle":"Cloud Computing
+Fundamentals","DOI":"10.1007/978-1-4419-6524-0_1","pubDate":"2010-01-01","sourceType":"Book","sourceTitle":"Handbook
+of Cloud
+Computing","chapterId":"1","bookTitleId":"189790","bookDOI":"10.1007/978-1-4419-6524-0","ISXN":"978-1-4419-6523-3","subjectCollection":"Computer
+Science","subjects":[{"subject":"Computer
+Science","type":"Primary"},{"subject":"Computer Communication
+Networks","type":"Secondary"},{"subject":"Communications Engineering,
+Networks","type":"Secondary"},{"subject":"Computer Systems Organization
+and Communication Networks","type":"Secondary"},{"subject":"Management
+of Computing and Information
+Systems","type":"Secondary"}],"keywords":[],"openAccess":"false","imageType":"Table","provider":"Springer"}],"facets":[{"name":"subject","values":[{"value":"Computer
+Science","count":"12"},{"value":"Computer Systems Organization and
+Communication Networks","count":"11"},{"value":"Management of Computing
+and Information Systems","count":"11"},{"value":"Communications
+Engineering, Networks","count":"10"},{"value":"Computer Communication
+Networks","count":"10"},{"value":"Computer Appl. in Administrative Data
+Processing","count":"1"},{"value":"Computer Appl. in Social and
+Behavioral Sciences","count":"1"},{"value":"Data Mining and Knowledge
+Discovery","count":"1"},{"value":"Database
+Management","count":"1"},{"value":"Document Preparation and Text
+Processing","count":"1"},{"value":"Information Storage and
+Retrieval","count":"1"},{"value":"Information Systems Applications
+(incl.Internet)","count":"1"},{"value":"Multimedia Information
+Systems","count":"1"}]},{"name":"keyword","values":[]},{"name":"year","values":[{"value":"2010","count":"12"}]},{"name":"type","values":[{"value":"Table","count":"8"},{"value":"Image","count":"3"},{"value":"Line","count":"1"}]},{"name":"imagetype","values":[{"value":"Table","count":"8"},{"value":"Image","count":"3"},{"value":"Line","count":"1"}]}]}

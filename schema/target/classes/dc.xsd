@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://purl.org/dc/elements/1.1/" xmlns:meta="http://www.springer.com/app/meta" xmlns:pam="http://prismstandard.org/namespaces/pam/2.0/" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <xs:import schemaLocation="springer.xsd"/>
+  <xs:import namespace="http://prismstandard.org/namespaces/basic/2.0/" schemaLocation="prism.xsd"/>
+  <xs:import namespace="http://prismstandard.org/namespaces/pam/2.0/" schemaLocation="pam.xsd"/>
+  <xs:import namespace="http://www.springer.com/app/meta" schemaLocation="meta.xsd"/>
+  <xs:import namespace="http://www.w3.org/1999/xhtml" schemaLocation="xhtml.xsd"/>
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
+  <xs:element name="identifier" type="xs:anyURI"/>
+  <xs:element name="title" type="xs:string"/>
+  <xs:element name="creator" type="xs:string"/>
+  <xs:element name="publisher" type="xs:string"/>
+</xs:schema>

@@ -1,0 +1,1687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+	<query>algorithm </query>
+
+	<result>
+
+		<total>84508</total>
+
+		<start>1</start>
+
+		<pageLength>10</pageLength>
+
+	</result>
+
+	<records>
+
+		<record>
+
+			<Image Id="1-10.1007_978-0-85729-057-1_1-8">
+
+				<Caption>
+
+
+					<p>Randomized Ncut algorithm</p>
+
+
+				</Caption>
+
+				<File>
+
+					<Path
+Type="thumb">http://c0000571.cdn2.cloudfiles.rackspacecloud.com/SpringerBooks/BSE=4205/BOK=978-0-85729-057-1/PRT=1/CHP=1_10.1007-978-0-85729-057-1_1/MediaObjects/THUMB_189109_1_En_1_Fig9_HTML.jpg</Path>
+
+					<Path
+Type="medium">http://www.springerimages.com/img/Images/SpringerBooks/BSE=4205/BOK=978-0-85729-057-1/PRT=1/CHP=1_10.1007-978-0-85729-057-1_1/MediaObjects/MEDIUM_189109_1_En_1_Fig9_HTML.jpg</Path>
+
+					<Path
+Type="large">http://www.springerimages.com/img/Images/SpringerBooks/BSE=4205/BOK=978-0-85729-057-1/PRT=1/CHP=1_10.1007-978-0-85729-057-1_1/MediaObjects/LARGE_189109_1_En_1_Fig9_HTML.jpg</Path>
+
+				</File>
+
+				<Location>http://www.springerimages.com/images/Computer Science/1-10.1007_978-0-85729-057-1_1-8</Location>
+
+				<FullText>
+
+					<p>
+The resulting algorithm is Algorithm 4, which uses an
+efficient algorithm of the random projection as shown in
+Algorithm 3.
+					</p>
+
+					<p>
+
+						<p>The spectral clustering using random projection and subsampling
+is shown in Algorithm 4.</p>
+
+
+					</p>
+
+					<p>
+Consequently, Algorithm 4 works in quasilinear time and space
+with respect to the data cardinality n for fixed k.
+					</p>
+
+					<p>
+
+						<p>We give some remarks on our Algorithm 4.</p>
+
+.
+
+					</p>
+
+					<p>
+
+						<p>Algorithm 4 is equivalent to Algorithm 1 if
+$\hat{Q}=\hat{P}=P$ .</p>
+
+
+					</p>
+
+					<p>
+That is, if we skip the dimensionality reduction at Step 1 and
+choose all data points as $\hat{Q}$ at Step 2,
+Algorithm 4 provides the same clustering result as the
+original Ncut algorithm without any disadvantage..
+					</p>
+
+					<p>
+For low-dimensional datasets, this algorithm effectively works with
+a smaller constant α compared to Algorithm 4.
+					</p>
+
+					<p>
+For the parameters σ and k, the same remarks as on Algorithm 4
+are applicable to Algorithm 5..
+					</p>
+
+					<p>
+We implemented Algorithms 1, 4, and 5 using MATLAB.
+					</p>
+
+					<p>
+
+						<p>We experimentally compared the clustering errors of our
+Algorithms 4, 5, and Ncut with Nyström approximation [13],
+referring to the clustering result of Algorithm 1 as
+optimal.</p>
+
+
+					</p>
+
+					<p>
+It reveals slightly better performance of Algorithm 4 than the
+Nyström-based Ncut.
+					</p>
+
+					<p>
+While the Nyström-based Ncut estimates the eigenvectors from those
+of a m×m affinity matrix, Algorithm 4 obtains the eigenvectors
+from a n×m rectangular affinity matrix, which results in more
+stable performance.
+					</p>
+
+					<p>
+Since SVD requires quadratic time in m, Algorithm 5 is about a
+hundred times faster than Algorithm 4 to achieve a comparable
+accuracy in this experiment.
+					</p>
+
+					<p>
+Algorithms 4, 5, and Nyström-based Ncut run in linear time
+$\mathcal{O}(n)$ , but the Nyström-based Ncut requires cubic time
+in m.
+					</p>
+
+					<p>
+We remark that Algorithm 4 runs always faster than the
+Nyström-based Ncut, which implies Algorithm 4 can afford to
+use more subsamples to improve the accuracy.
+					</p>
+
+					<p>
+By random sampling of coordinates, Algorithm 4 actually runs
+in $\mathcal{O}(n)$ time as shown in Fig. 9.
+					</p>
+
+					<p>
+
+						<p>Another advantage of Algorithm 4 is the low memory
+consumption.</p>
+
+
+					</p>
+
+					<p>
+Figure 10 shows an example of the image segmentation by
+Algorithm 4.
+					</p>
+
+					<p>
+Algorithm 4 with k=7, σ=1, and α=40 extracts the seven major
+segments: three parts of backwall around the top player, two grassy
+regions around the bottom player, and each of the two players’
+uniforms.
+					</p>
+
+					<p>
+
+						<p>A baseball scene (216×147 gray image), and the segmentation
+result by Algorithm 4.</p>
+
+
+					</p>
+
+					<p>
+As shown in the right panel of Fig. 11, Algorithm 4 with
+k=3, σ=1, and α=100 classifies the regions of moving objects with
+three dominant flows: two spatially mixed flows of pedestrians in
+opposite directions and a flow associated with car arrival at the
+crossing.
+					</p>
+
+					<p>
+We have confirmed that Algorithm 5 with α=10 runs about twice
+as fast as Algorithm 4, and provides the segmentation result
+with a comparable quality.
+					</p>
+
+					<p>
+We could stably extract almost the same clusters by
+Algorithm 4 with ε=0.3 ( $\hat{d}=786$ , random sampling) and
+α=100 (m=600).
+					</p>
+
+					<p>
+$$ We deal with the resulting dataset as $\hat{P}$ at Step 1
+in Algorithms 4 or 5..
+					</p>
+
+					<p>
+Figure 13(a) shows the clustering result by Algorithm 4
+with the local scaling.
+					</p>
+
+					<p>
+The computation time was twelve seconds while Algorithm 4
+without any reduction or Algorithm 1 took about
+10 minutes.
+					</p>
+
+					<p>
+The random projection and random subsampling in Algorithm 4
+resolve the two major problems of spectral clustering: intensive
+computations of the affinity matrix and its eigenvectors.
+					</p>
+
+				</FullText>
+
+				<Authors>
+
+					<Author>Sakai, Tomoya</Author>
+
+					<Author>Imiya, Atsushi</Author>
+
+				</Authors>
+
+				<Institutions>
+
+					<Institution>Nagasaki University</Institution>
+
+				</Institutions>
+
+				<ArticleTitle>Practical Algorithms of Spectral Clustering: Toward Large-Scale Vision-Based Motion Analysis</ArticleTitle>
+
+				<DOI>10.1007/978-0-85729-057-1_1</DOI>
+
+				<PubDate>2011-01-01</PubDate>
+
+				<SourceType>Book</SourceType>
+
+				<SourceTitle>Machine Learning for Vision-Based Motion Analysis</SourceTitle>
+
+				<ChapterId>1</ChapterId>
+
+				<BookTitleId>189109</BookTitleId>
+
+				<BookDOI>10.1007/978-0-85729-057-1</BookDOI>
+
+				<ISXN>978-0-85729-056-4</ISXN>
+
+				<SubjectCollection>Computer Science</SubjectCollection>
+
+				<Subjects>
+
+					<Subject Type="Primary">Computer Science</Subject>
+
+					<Subject Type="Secondary" Priority="1"
+Code="SCI22021">Image Processing and Computer Vision</Subject>
+
+					<Subject Type="Secondary" Priority="2"
+Code="SCI21017">Artificial Intelligence (incl. Robotics)</Subject>
+
+				</Subjects>
+
+				<Keywords />
+
+				<OpenAccess>false</OpenAccess>
+
+				<CopyrightHolder>Springer-Verlag London Limited</CopyrightHolder>
+
+				<ImageType>Line</ImageType>
+
+				<Provider>Springer</Provider>
+
+			</Image>
+
+		</record>
+
+		<record>
+
+			<Image Id="1-10.1007_s11096-011-9486-1-1">
+
+				<Caption>
+
+
+					<p>Recent clinical studies of warfarin pharmacogenomics: a summary</p>
+
+
+				</Caption>
+
+				<File>
+
+					<Path
+Type="thumb">http://c0000571.cdn2.cloudfiles.rackspacecloud.com/table.jpg</Path>
+
+				</File>
+
+				<Location>http://www.springerimages.com/images/Medicine &amp; Public Health/1-10.1007_s11096-011-9486-1-1</Location>
+
+				<FullText>
+
+					<p>
+
+						<p>Several researchers have reported on the differences in genetic
+polymorphisms and dose response among varied groups
+(Table 1).</p>
+
+
+					</p>
+
+				</FullText>
+
+				<VolumeId>33</VolumeId>
+
+				<IssueId>1</IssueId>
+
+				<Authors>
+
+					<Author>Mahajan, Pramod</Author>
+
+					<Author>Meyer, Kristin S.</Author>
+
+					<Author>Wall, Geoffrey C.</Author>
+
+					<Author>Price, Heidi J.</Author>
+
+				</Authors>
+
+				<Institutions>
+
+					<Institution>Drake University</Institution>
+
+					<Institution>Iowa Veterans Home</Institution>
+
+					<Institution>Iowa Methodist Medical Center</Institution>
+
+				</Institutions>
+
+				<ArticleTitle>Clinical applications of pharmacogenomics guided warfarin dosing</ArticleTitle>
+
+				<DOI>10.1007/s11096-011-9486-1</DOI>
+
+				<PubDate>2011-02-19</PubDate>
+
+				<SourceType>Article</SourceType>
+
+				<SourceTitle>International Journal of Clinical Pharmacy</SourceTitle>
+
+				<ISXN ISSN="2210-7711" ISBN="" EISBN="">2210-7711</ISXN>
+
+				<SubjectCollection>Medicine &amp; Public Health</SubjectCollection>
+
+				<Subjects>
+
+					<Subject
+Type="Primary">Medicine &amp; Public Health</Subject>
+
+					<Subject Type="Secondary">Internal Medicine</Subject>
+
+				</Subjects>
+
+				<Keywords>
+
+					<Keyword>Dosing</Keyword>
+
+					<Keyword>Pharmacogenetics</Keyword>
+
+					<Keyword>Pharmacogenomics</Keyword>
+
+					<Keyword>Vitamin K antagonists</Keyword>
+
+					<Keyword>Warfarin</Keyword>
+
+				</Keywords>
+
+				<OpenAccess>false</OpenAccess>
+
+				<CopyrightHolder>Springer Science+Business Media B.V.</CopyrightHolder>
+
+				<ImageType>Table</ImageType>
+
+				<Provider>Springer</Provider>
+
+			</Image>
+
+		</record>
+
+		<record>
+
+			<Image Id="1-10.1007_0-306-48332-7_76-0">
+
+				<Caption>
+
+                     Convex-simplex algorithmConvex-Simplex Algorithm
+				</Caption>
+
+				<File>
+
+					<Path
+Type="thumb">http://c0000571.cdn2.cloudfiles.rackspacecloud.com/SpringerBooks/PUB=Springer_US-Boston,_MA/BOK=0-306-48332-7/PRT=3/MediaObjects/THUMB_0-306-48332-7_3_Part_Fig10_HTML.jpg</Path>
+
+					<Path
+Type="medium">http://www.springerimages.com/img/Images/SpringerBooks/PUB=Springer_US-Boston,_MA/BOK=0-306-48332-7/PRT=3/MediaObjects/MEDIUM_0-306-48332-7_3_Part_Fig10_HTML.jpg</Path>
+
+					<Path
+Type="large">http://www.springerimages.com/img/Images/SpringerBooks/PUB=Springer_US-Boston,_MA/BOK=0-306-48332-7/PRT=3/MediaObjects/LARGE_0-306-48332-7_3_Part_Fig10_HTML.jpg</Path>
+
+				</File>
+
+				<Location>http://www.springerimages.com/images/Mathematics/1-10.1007_0-306-48332-7_76-0</Location>
+
+				<FullText />
+
+				<Authors>
+
+					<Author>Lawphongpanich, Siriphong</Author>
+
+				</Authors>
+
+				<Institutions>
+
+					<Institution>Naval Postgraduate School Monterey</Institution>
+
+				</Institutions>
+
+				<ArticleTitle>
+
+                     Convex-simplex algorithmConvex-Simplex Algorithm
+				</ArticleTitle>
+
+				<DOI>10.1007/0-306-48332-7_76</DOI>
+
+				<PubDate>2001-01-01</PubDate>
+
+				<SourceType>Book</SourceType>
+
+				<SourceTitle>Encyclopedia of Optimization</SourceTitle>
+
+				<ChapterId>76</ChapterId>
+
+				<BookTitleId>103636</BookTitleId>
+
+				<BookDOI>10.1007/0-306-48332-7</BookDOI>
+
+				<ISXN ISBN="978-0-7923-6932-5"
+EISBN="978-0-306-48332-5">978-0-7923-6932-5</ISXN>
+
+				<SubjectCollection>Mathematics</SubjectCollection>
+
+				<Subjects>
+
+					<Subject Type="Primary">Mathematics</Subject>
+
+					<Subject Type="Secondary" Priority="1"
+Code="M26008">Optimization</Subject>
+
+					<Subject Type="Secondary" Priority="2"
+Code="M14018">Algorithms</Subject>
+
+					<Subject Type="Secondary" Priority="3"
+Code="M14068">Mathematical Modeling and Industrial Mathematics</Subject>
+
+				</Subjects>
+
+				<Keywords>
+
+					<Keyword>90C30</Keyword>
+
+					<Keyword>basic component</Keyword>
+
+					<Keyword>convex-simplex algorithmconvex-simplex algorithm</Keyword>
+
+					<Keyword>extreme point Convex-simplex algorithm; Frank–Wolfe algorithm; Krein–Milman theorem; Simplicial decompositionextreme point</Keyword>
+
+					<Keyword>feasible direction methods</Keyword>
+
+					<Keyword>first order Taylor series expansion Convex-simplex algorithm; Frank–Wolfe algorithm; Simplicial decompositionfirst order Taylor series expansion</Keyword>
+
+					<Keyword>generalized networks</Keyword>
+
+					<Keyword>generalized upper bounding structure Convex-simplex algorithmgeneralized upper bounding structure</Keyword>
+
+					<Keyword>golden section method</Keyword>
+
+					<Keyword>improving feasible direction Convex-simplex algorithmimproving feasible direction</Keyword>
+
+					<Keyword>inexact line search technique Convex-simplex algorithminexact line search technique</Keyword>
+
+					<Keyword>Karush–Kuhn–Tucker conditions Convex-simplex algorithmKarush–Kuhn–Tucker conditions</Keyword>
+
+					<Keyword>linearly independent Convex-simplex algorithmlinearly independent</Keyword>
+
+					<Keyword>line search problem Convex-simplex algorithm; Frank–Wolfe algorithmline search problem</Keyword>
+
+					<Keyword>linear program Convex-simplex algorithm; Frank–Wolfe algorithm; Simplicial decompositionlinear program</Keyword>
+
+					<Keyword>nonbasic component Convex-simplex algorithmnonbasic component</Keyword>
+
+					<Keyword>nonlinear network flow problems Convex-simplex algorithmnonlinear network flow problems</Keyword>
+
+					<Keyword>nonlinear programming Convex-simplex algorithm; Feasible sequential quadratic programming; Frank–Wolfe algorithm; Neural networks for combinatorial optimization; Operations research and financial markets; Optimization and decision support systems; Portfolio selection: Markowitz mean-variance model; Rosen’s method, global convergence, and Powell’s conjecture; Sensitivity and stability in NLP; Sensitivity and stability in NLP: Continuity and differential stability; Simplicial decompositionnonlinear programming</Keyword>
+
+					<Keyword>nonsingular Convex-simplex algorithmnonsingular</Keyword>
+
+					<Keyword>polyhedron Convex-simplex algorithm; Frank–Wolfe algorithm; Simplicial decompositionpolyhedron</Keyword>
+
+					<Keyword>pseudoconvex function Convex-simplex algorithm; Simplicial decomposition algorithmspseudoconvex function</Keyword>
+
+					<Keyword>reduced gradient algorithm Convex-simplex algorithmreduced gradient algorithm</Keyword>
+
+					<Keyword>second order approximation Convex-simplex algorithmsecond order approximation</Keyword>
+
+					<Keyword>simplex algorithm Convex-simplex algorithm; Frank-Wolfe algorithm; Linear programming: Klee-Minty examples; Pivoting algorithms for linear programming generating two paths; Simplicial decompositionsimplex algorithm</Keyword>
+
+					<Keyword>superbasic variables Convex-simplex algorithmsuperbasic variables</Keyword>
+
+				</Keywords>
+
+				<OpenAccess>false</OpenAccess>
+
+				<CopyrightHolder>Kluwer Academic Publishers</CopyrightHolder>
+
+				<ImageType>Line</ImageType>
+
+				<Provider>Springer</Provider>
+
+			</Image>
+
+		</record>
+
+		<record>
+
+			<Image Id="1-10.1007_0-306-48332-7_146-0">
+
+				<Caption>
+
+                     Frank–wolfe algorithm
+
+
+					<em>Rosen's method, global convergence, and Powell's conjecture</em>
+
+
+
+					<em>Cost approximation algorithms; Simplicial decomposition; Stochastic transportation and location problems; Traffic network equilibrium</em>
+FRANK–WOLFE ALGORITHM
+
+				</Caption>
+
+				<File>
+
+					<Path
+Type="thumb">http://c0000571.cdn2.cloudfiles.rackspacecloud.com/SpringerBooks/PUB=Springer_US-Boston,_MA/BOK=0-306-48332-7/PRT=6/MediaObjects/THUMB_0-306-48332-7_6_Part_Fig18_HTML.jpg</Path>
+
+					<Path
+Type="medium">http://www.springerimages.com/img/Images/SpringerBooks/PUB=Springer_US-Boston,_MA/BOK=0-306-48332-7/PRT=6/MediaObjects/MEDIUM_0-306-48332-7_6_Part_Fig18_HTML.jpg</Path>
+
+					<Path
+Type="large">http://www.springerimages.com/img/Images/SpringerBooks/PUB=Springer_US-Boston,_MA/BOK=0-306-48332-7/PRT=6/MediaObjects/LARGE_0-306-48332-7_6_Part_Fig18_HTML.jpg</Path>
+
+				</File>
+
+				<Location>http://www.springerimages.com/images/Mathematics/1-10.1007_0-306-48332-7_146-0</Location>
+
+				<FullText />
+
+				<Authors>
+
+					<Author>Lawphongpanich, Siriphong</Author>
+
+				</Authors>
+
+				<Institutions>
+
+					<Institution>Naval Postgraduate School</Institution>
+
+				</Institutions>
+
+				<ArticleTitle>
+
+                     Frank–wolfe algorithm
+
+
+					<em>Rosen's method, global convergence, and Powell's conjecture</em>
+
+
+
+					<em>Cost approximation algorithms; Simplicial decomposition; Stochastic transportation and location problems; Traffic network equilibrium</em>
+FRANK–WOLFE ALGORITHM
+
+				</ArticleTitle>
+
+				<DOI>10.1007/0-306-48332-7_146</DOI>
+
+				<PubDate>2001-01-01</PubDate>
+
+				<SourceType>Book</SourceType>
+
+				<SourceTitle>Encyclopedia of Optimization</SourceTitle>
+
+				<ChapterId>146</ChapterId>
+
+				<BookTitleId>103636</BookTitleId>
+
+				<BookDOI>10.1007/0-306-48332-7</BookDOI>
+
+				<ISXN ISBN="978-0-7923-6932-5"
+EISBN="978-0-306-48332-5">978-0-7923-6932-5</ISXN>
+
+				<SubjectCollection>Mathematics</SubjectCollection>
+
+				<Subjects>
+
+					<Subject Type="Primary">Mathematics</Subject>
+
+					<Subject Type="Secondary" Priority="1"
+Code="M26008">Optimization</Subject>
+
+					<Subject Type="Secondary" Priority="2"
+Code="M14018">Algorithms</Subject>
+
+					<Subject Type="Secondary" Priority="3"
+Code="M14068">Mathematical Modeling and Industrial Mathematics</Subject>
+
+				</Subjects>
+
+				<Keywords>
+
+					<Keyword>away direction Frank–Wolfe algorithmaway direction</Keyword>
+
+					<Keyword>bisection search</Keyword>
+
+					<Keyword>bounded Frank–Wolfe algorithmbounded</Keyword>
+
+					<Keyword>column generation</Keyword>
+
+					<Keyword>convergence rate Boundary condition iteration; Large scale unconstrained optimizationconvergence rate</Keyword>
+
+					<Keyword>convex function</Keyword>
+
+					<Keyword>convex hull</Keyword>
+
+					<Keyword>convexity</Keyword>
+
+					<Keyword>Dantzig–Wolfe decomposition</Keyword>
+
+					<Keyword>differentiable function Frank–Wolfe algorithmdifferentiable function</Keyword>
+
+					<Keyword>direction finding problem Frank–Wolfe algorithmdirection finding problem</Keyword>
+
+					<Keyword>extreme point</Keyword>
+
+					<Keyword>feasible direction Frank–Wolfe algorithmfeasible direction</Keyword>
+
+					<Keyword>feasible direction methods</Keyword>
+
+					<Keyword>first order Taylor series expansion</Keyword>
+
+					<Keyword>geometrically Frank–Wolfe algorithmgeometrically</Keyword>
+
+					<Keyword>globally optimal Frank–Wolfe algorithm; Simplicial decompositionglobally optimal</Keyword>
+
+					<Keyword>golden section method</Keyword>
+
+					<Keyword>heuristics</Keyword>
+
+					<Keyword>inexact line search line Frank–Wolfe algorithminexact line search line</Keyword>
+
+					<Keyword>search algorithms Frank—Wolfe algorithmsearch algorithms</Keyword>
+
+					<Keyword>line search problem</Keyword>
+
+					<Keyword>linear program</Keyword>
+
+					<Keyword>matrix Frank–Wolfe algorithmmatrix</Keyword>
+
+					<Keyword>network Frank–Wolfe algorithm; Maximum flow problem; Minimum cost flow problem; Network design problems; Nonoriented multicommodity flow problems; Stochastic network problems: Massively parallel solution; Vehicle routingnetwork</Keyword>
+
+					<Keyword>nonempty Frank–Wolfe algorithmnonempty</Keyword>
+
+					<Keyword>nonlinear programming</Keyword>
+
+					<Keyword>parallel tangents Frank–Wolfe algorithmparallel tangents</Keyword>
+
+					<Keyword>PARTAN Frank–Wolfe algorithmPARTAN</Keyword>
+
+					<Keyword>polyhedron</Keyword>
+
+					<Keyword>positive definite matrix Frank–Wolfe algorithm; Simplicial decompositionpositive definite matrix</Keyword>
+
+					<Keyword>pseudoconvex Frank-Wolfe algorithm; Invexity and its applicationspseudoconvex</Keyword>
+
+					<Keyword>quadratic programming</Keyword>
+
+					<Keyword>regularized direction finding problem Frank–Wolfe algorithmregularized direction finding problem</Keyword>
+
+					<Keyword>regularized Frank–Wolfe algorithm Simplicial decompositionregularized Frank–Wolfe decomposition</Keyword>
+
+					<Keyword>simplex algorithm</Keyword>
+
+					<Keyword>simplicial decomposition Frank-Wolfe algorithm; Simplicial decompositionsimplicial decomposition</Keyword>
+
+					<Keyword>stepsize Frank–Wolfe algorithmstepsize</Keyword>
+
+					<Keyword>stopping criterion Frank–Wolfe algorithmstopping criterion</Keyword>
+
+					<Keyword>strongly convex</Keyword>
+
+					<Keyword>90C30</Keyword>
+
+				</Keywords>
+
+				<OpenAccess>false</OpenAccess>
+
+				<CopyrightHolder>Kluwer Academic Publishers</CopyrightHolder>
+
+				<ImageType>Line</ImageType>
+
+				<Provider>Springer</Provider>
+
+			</Image>
+
+		</record>
+
+		<record>
+
+			<Image Id="1-10.1007_0-306-48332-7_146-3">
+
+				<Caption>
+
+                     Frank–wolfe algorithm
+
+
+					<em>Rosen's method, global convergence, and Powell's conjecture</em>
+
+
+
+					<em>Cost approximation algorithms; Simplicial decomposition; Stochastic transportation and location problems; Traffic network equilibrium</em>
+FRANK–WOLFE ALGORITHM
+
+				</Caption>
+
+				<File>
+
+					<Path
+Type="thumb">http://c0000571.cdn2.cloudfiles.rackspacecloud.com/SpringerBooks/PUB=Springer_US-Boston,_MA/BOK=0-306-48332-7/PRT=6/MediaObjects/THUMB_0-306-48332-7_6_Part_Fig21_HTML.jpg</Path>
+
+					<Path
+Type="medium">http://www.springerimages.com/img/Images/SpringerBooks/PUB=Springer_US-Boston,_MA/BOK=0-306-48332-7/PRT=6/MediaObjects/MEDIUM_0-306-48332-7_6_Part_Fig21_HTML.jpg</Path>
+
+					<Path
+Type="large">http://www.springerimages.com/img/Images/SpringerBooks/PUB=Springer_US-Boston,_MA/BOK=0-306-48332-7/PRT=6/MediaObjects/LARGE_0-306-48332-7_6_Part_Fig21_HTML.jpg</Path>
+
+				</File>
+
+				<Location>http://www.springerimages.com/images/Mathematics/1-10.1007_0-306-48332-7_146-3</Location>
+
+				<FullText />
+
+				<Authors>
+
+					<Author>Lawphongpanich, Siriphong</Author>
+
+				</Authors>
+
+				<Institutions>
+
+					<Institution>Naval Postgraduate School</Institution>
+
+				</Institutions>
+
+				<ArticleTitle>
+
+                     Frank–wolfe algorithm
+
+
+					<em>Rosen's method, global convergence, and Powell's conjecture</em>
+
+
+
+					<em>Cost approximation algorithms; Simplicial decomposition; Stochastic transportation and location problems; Traffic network equilibrium</em>
+FRANK–WOLFE ALGORITHM
+
+				</ArticleTitle>
+
+				<DOI>10.1007/0-306-48332-7_146</DOI>
+
+				<PubDate>2001-01-01</PubDate>
+
+				<SourceType>Book</SourceType>
+
+				<SourceTitle>Encyclopedia of Optimization</SourceTitle>
+
+				<ChapterId>146</ChapterId>
+
+				<BookTitleId>103636</BookTitleId>
+
+				<BookDOI>10.1007/0-306-48332-7</BookDOI>
+
+				<ISXN ISBN="978-0-7923-6932-5"
+EISBN="978-0-306-48332-5">978-0-7923-6932-5</ISXN>
+
+				<SubjectCollection>Mathematics</SubjectCollection>
+
+				<Subjects>
+
+					<Subject Type="Primary">Mathematics</Subject>
+
+					<Subject Type="Secondary" Priority="1"
+Code="M26008">Optimization</Subject>
+
+					<Subject Type="Secondary" Priority="2"
+Code="M14018">Algorithms</Subject>
+
+					<Subject Type="Secondary" Priority="3"
+Code="M14068">Mathematical Modeling and Industrial Mathematics</Subject>
+
+				</Subjects>
+
+				<Keywords>
+
+					<Keyword>away direction Frank–Wolfe algorithmaway direction</Keyword>
+
+					<Keyword>bisection search</Keyword>
+
+					<Keyword>bounded Frank–Wolfe algorithmbounded</Keyword>
+
+					<Keyword>column generation</Keyword>
+
+					<Keyword>convergence rate Boundary condition iteration; Large scale unconstrained optimizationconvergence rate</Keyword>
+
+					<Keyword>convex function</Keyword>
+
+					<Keyword>convex hull</Keyword>
+
+					<Keyword>convexity</Keyword>
+
+					<Keyword>Dantzig–Wolfe decomposition</Keyword>
+
+					<Keyword>differentiable function Frank–Wolfe algorithmdifferentiable function</Keyword>
+
+					<Keyword>direction finding problem Frank–Wolfe algorithmdirection finding problem</Keyword>
+
+					<Keyword>extreme point</Keyword>
+
+					<Keyword>feasible direction Frank–Wolfe algorithmfeasible direction</Keyword>
+
+					<Keyword>feasible direction methods</Keyword>
+
+					<Keyword>first order Taylor series expansion</Keyword>
+
+					<Keyword>geometrically Frank–Wolfe algorithmgeometrically</Keyword>
+
+					<Keyword>globally optimal Frank–Wolfe algorithm; Simplicial decompositionglobally optimal</Keyword>
+
+					<Keyword>golden section method</Keyword>
+
+					<Keyword>heuristics</Keyword>
+
+					<Keyword>inexact line search line Frank–Wolfe algorithminexact line search line</Keyword>
+
+					<Keyword>search algorithms Frank—Wolfe algorithmsearch algorithms</Keyword>
+
+					<Keyword>line search problem</Keyword>
+
+					<Keyword>linear program</Keyword>
+
+					<Keyword>matrix Frank–Wolfe algorithmmatrix</Keyword>
+
+					<Keyword>network Frank–Wolfe algorithm; Maximum flow problem; Minimum cost flow problem; Network design problems; Nonoriented multicommodity flow problems; Stochastic network problems: Massively parallel solution; Vehicle routingnetwork</Keyword>
+
+					<Keyword>nonempty Frank–Wolfe algorithmnonempty</Keyword>
+
+					<Keyword>nonlinear programming</Keyword>
+
+					<Keyword>parallel tangents Frank–Wolfe algorithmparallel tangents</Keyword>
+
+					<Keyword>PARTAN Frank–Wolfe algorithmPARTAN</Keyword>
+
+					<Keyword>polyhedron</Keyword>
+
+					<Keyword>positive definite matrix Frank–Wolfe algorithm; Simplicial decompositionpositive definite matrix</Keyword>
+
+					<Keyword>pseudoconvex Frank-Wolfe algorithm; Invexity and its applicationspseudoconvex</Keyword>
+
+					<Keyword>quadratic programming</Keyword>
+
+					<Keyword>regularized direction finding problem Frank–Wolfe algorithmregularized direction finding problem</Keyword>
+
+					<Keyword>regularized Frank–Wolfe algorithm Simplicial decompositionregularized Frank–Wolfe decomposition</Keyword>
+
+					<Keyword>simplex algorithm</Keyword>
+
+					<Keyword>simplicial decomposition Frank-Wolfe algorithm; Simplicial decompositionsimplicial decomposition</Keyword>
+
+					<Keyword>stepsize Frank–Wolfe algorithmstepsize</Keyword>
+
+					<Keyword>stopping criterion Frank–Wolfe algorithmstopping criterion</Keyword>
+
+					<Keyword>strongly convex</Keyword>
+
+					<Keyword>90C30</Keyword>
+
+				</Keywords>
+
+				<OpenAccess>false</OpenAccess>
+
+				<CopyrightHolder>Kluwer Academic Publishers</CopyrightHolder>
+
+				<ImageType>Line</ImageType>
+
+				<Provider>Springer</Provider>
+
+			</Image>
+
+		</record>
+
+		<record>
+
+			<Image Id="1-10.1007_978-0-387-74759-0_616-0">
+
+				<Caption>
+
+
+
+
+					<em>Simplicial pivoting algorithms for integer programming</em>
+
+                     Simplicial Pivoting Algorithms for Integer Programming
+
+				</Caption>
+
+				<File>
+
+					<Path
+Type="thumb">http://c0000571.cdn2.cloudfiles.rackspacecloud.com/SpringerBooks/PUB=Springer_US-Boston,_MA/BOK=978-0-387-74759-0/PRT=19/MediaObjects/THUMB_978-0-387-74759-0_19_Part_Fig64_HTML.jpg</Path>
+
+					<Path
+Type="medium">http://www.springerimages.com/img/Images/SpringerBooks/PUB=Springer_US-Boston,_MA/BOK=978-0-387-74759-0/PRT=19/MediaObjects/MEDIUM_978-0-387-74759-0_19_Part_Fig64_HTML.jpg</Path>
+
+					<Path
+Type="large">http://www.springerimages.com/img/Images/SpringerBooks/PUB=Springer_US-Boston,_MA/BOK=978-0-387-74759-0/PRT=19/MediaObjects/LARGE_978-0-387-74759-0_19_Part_Fig64_HTML.jpg</Path>
+
+				</File>
+
+				<Location>http://www.springerimages.com/images/Mathematics/1-10.1007_978-0-387-74759-0_616-0</Location>
+
+				<FullText />
+
+				<Authors>
+
+					<Author>Maaren, Hans van</Author>
+
+				</Authors>
+
+				<Institutions>
+
+					<Institution>Delft University Technol.</Institution>
+
+				</Institutions>
+
+				<ArticleTitle>
+
+
+
+
+					<em>Simplicial pivoting algorithms for integer programming</em>
+
+                     Simplicial Pivoting Algorithms for Integer Programming
+
+				</ArticleTitle>
+
+				<DOI>10.1007/978-0-387-74759-0_616</DOI>
+
+				<PubDate>2008-01-01</PubDate>
+
+				<SourceType>Book</SourceType>
+
+				<SourceTitle>Encyclopedia of Optimization</SourceTitle>
+
+				<ChapterId>616</ChapterId>
+
+				<BookTitleId>103636</BookTitleId>
+
+				<BookDOI>10.1007/978-0-387-74759-0</BookDOI>
+
+				<ISXN ISBN="978-0-387-74758-3"
+EISBN="978-0-387-74759-0">978-0-387-74758-3</ISXN>
+
+				<SubjectCollection>Mathematics</SubjectCollection>
+
+				<Subjects>
+
+					<Subject Type="Primary">Mathematics</Subject>
+
+					<Subject Type="Secondary" Priority="1"
+Code="M26008">Optimization</Subject>
+
+					<Subject Type="Secondary" Priority="2"
+Code="M26024">Operations Research, Mathematical Programming</Subject>
+
+					<Subject Type="Secondary" Priority="3"
+Code="M14018">Algorithms</Subject>
+
+					<Subject Type="Secondary" Priority="4"
+Code="M26016">Calculus of Variations and Optimal Control; Optimization</Subject>
+
+					<Subject Type="Secondary" Priority="5"
+Code="M14068">Mathematical Modeling and Industrial Mathematics</Subject>
+
+				</Subjects>
+
+				<Keywords>
+
+					<Keyword>simplicial algorithms Simplicial pivoting algorithms for integer programmingSimplicial algorithms</Keyword>
+
+					<Keyword>integer programming Simplicial pivoting algorithms for integer programmingInteger programming</Keyword>
+
+					<Keyword>knapsack problem Simplicial pivoting algorithms for integer programmingKnapsack problem</Keyword>
+
+					<Keyword>Horn formulas Simplicial pivoting algorithms for integer programmingHorn formulas</Keyword>
+
+				</Keywords>
+
+				<OpenAccess>false</OpenAccess>
+
+				<CopyrightHolder>Springer-Verlag</CopyrightHolder>
+
+				<ImageType>Image</ImageType>
+
+				<Provider>Springer</Provider>
+
+			</Image>
+
+		</record>
+
+		<record>
+
+			<Image Id="1-10.1007_978-0-387-74759-0_616-2">
+
+				<Caption>
+
+
+
+
+					<em>Simplicial pivoting algorithms for integer programming</em>
+
+                     Simplicial Pivoting Algorithms for Integer Programming
+
+				</Caption>
+
+				<File>
+
+					<Path
+Type="thumb">http://c0000571.cdn2.cloudfiles.rackspacecloud.com/SpringerBooks/PUB=Springer_US-Boston,_MA/BOK=978-0-387-74759-0/PRT=19/MediaObjects/THUMB_978-0-387-74759-0_19_Part_Fig66_HTML.jpg</Path>
+
+					<Path
+Type="medium">http://www.springerimages.com/img/Images/SpringerBooks/PUB=Springer_US-Boston,_MA/BOK=978-0-387-74759-0/PRT=19/MediaObjects/MEDIUM_978-0-387-74759-0_19_Part_Fig66_HTML.jpg</Path>
+
+					<Path
+Type="large">http://www.springerimages.com/img/Images/SpringerBooks/PUB=Springer_US-Boston,_MA/BOK=978-0-387-74759-0/PRT=19/MediaObjects/LARGE_978-0-387-74759-0_19_Part_Fig66_HTML.jpg</Path>
+
+				</File>
+
+				<Location>http://www.springerimages.com/images/Mathematics/1-10.1007_978-0-387-74759-0_616-2</Location>
+
+				<FullText />
+
+				<Authors>
+
+					<Author>Maaren, Hans van</Author>
+
+				</Authors>
+
+				<Institutions>
+
+					<Institution>Delft University Technol.</Institution>
+
+				</Institutions>
+
+				<ArticleTitle>
+
+
+
+
+					<em>Simplicial pivoting algorithms for integer programming</em>
+
+                     Simplicial Pivoting Algorithms for Integer Programming
+
+				</ArticleTitle>
+
+				<DOI>10.1007/978-0-387-74759-0_616</DOI>
+
+				<PubDate>2008-01-01</PubDate>
+
+				<SourceType>Book</SourceType>
+
+				<SourceTitle>Encyclopedia of Optimization</SourceTitle>
+
+				<ChapterId>616</ChapterId>
+
+				<BookTitleId>103636</BookTitleId>
+
+				<BookDOI>10.1007/978-0-387-74759-0</BookDOI>
+
+				<ISXN ISBN="978-0-387-74758-3"
+EISBN="978-0-387-74759-0">978-0-387-74758-3</ISXN>
+
+				<SubjectCollection>Mathematics</SubjectCollection>
+
+				<Subjects>
+
+					<Subject Type="Primary">Mathematics</Subject>
+
+					<Subject Type="Secondary" Priority="1"
+Code="M26008">Optimization</Subject>
+
+					<Subject Type="Secondary" Priority="2"
+Code="M26024">Operations Research, Mathematical Programming</Subject>
+
+					<Subject Type="Secondary" Priority="3"
+Code="M14018">Algorithms</Subject>
+
+					<Subject Type="Secondary" Priority="4"
+Code="M26016">Calculus of Variations and Optimal Control; Optimization</Subject>
+
+					<Subject Type="Secondary" Priority="5"
+Code="M14068">Mathematical Modeling and Industrial Mathematics</Subject>
+
+				</Subjects>
+
+				<Keywords>
+
+					<Keyword>simplicial algorithms Simplicial pivoting algorithms for integer programmingSimplicial algorithms</Keyword>
+
+					<Keyword>integer programming Simplicial pivoting algorithms for integer programmingInteger programming</Keyword>
+
+					<Keyword>knapsack problem Simplicial pivoting algorithms for integer programmingKnapsack problem</Keyword>
+
+					<Keyword>Horn formulas Simplicial pivoting algorithms for integer programmingHorn formulas</Keyword>
+
+				</Keywords>
+
+				<OpenAccess>false</OpenAccess>
+
+				<CopyrightHolder>Springer-Verlag</CopyrightHolder>
+
+				<ImageType>Image</ImageType>
+
+				<Provider>Springer</Provider>
+
+			</Image>
+
+		</record>
+
+		<record>
+
+			<Image Id="1-10.1007_978-0-387-74759-0_616-4">
+
+				<Caption>
+
+
+
+
+					<em>Simplicial pivoting algorithms for integer programming</em>
+
+                     Simplicial Pivoting Algorithms for Integer Programming
+
+				</Caption>
+
+				<File>
+
+					<Path
+Type="thumb">http://c0000571.cdn2.cloudfiles.rackspacecloud.com/SpringerBooks/PUB=Springer_US-Boston,_MA/BOK=978-0-387-74759-0/PRT=19/MediaObjects/THUMB_978-0-387-74759-0_19_Part_Fig68_HTML.jpg</Path>
+
+					<Path
+Type="medium">http://www.springerimages.com/img/Images/SpringerBooks/PUB=Springer_US-Boston,_MA/BOK=978-0-387-74759-0/PRT=19/MediaObjects/MEDIUM_978-0-387-74759-0_19_Part_Fig68_HTML.jpg</Path>
+
+					<Path
+Type="large">http://www.springerimages.com/img/Images/SpringerBooks/PUB=Springer_US-Boston,_MA/BOK=978-0-387-74759-0/PRT=19/MediaObjects/LARGE_978-0-387-74759-0_19_Part_Fig68_HTML.jpg</Path>
+
+				</File>
+
+				<Location>http://www.springerimages.com/images/Mathematics/1-10.1007_978-0-387-74759-0_616-4</Location>
+
+				<FullText />
+
+				<Authors>
+
+					<Author>Maaren, Hans van</Author>
+
+				</Authors>
+
+				<Institutions>
+
+					<Institution>Delft University Technol.</Institution>
+
+				</Institutions>
+
+				<ArticleTitle>
+
+
+
+
+					<em>Simplicial pivoting algorithms for integer programming</em>
+
+                     Simplicial Pivoting Algorithms for Integer Programming
+
+				</ArticleTitle>
+
+				<DOI>10.1007/978-0-387-74759-0_616</DOI>
+
+				<PubDate>2008-01-01</PubDate>
+
+				<SourceType>Book</SourceType>
+
+				<SourceTitle>Encyclopedia of Optimization</SourceTitle>
+
+				<ChapterId>616</ChapterId>
+
+				<BookTitleId>103636</BookTitleId>
+
+				<BookDOI>10.1007/978-0-387-74759-0</BookDOI>
+
+				<ISXN ISBN="978-0-387-74758-3"
+EISBN="978-0-387-74759-0">978-0-387-74758-3</ISXN>
+
+				<SubjectCollection>Mathematics</SubjectCollection>
+
+				<Subjects>
+
+					<Subject Type="Primary">Mathematics</Subject>
+
+					<Subject Type="Secondary" Priority="1"
+Code="M26008">Optimization</Subject>
+
+					<Subject Type="Secondary" Priority="2"
+Code="M26024">Operations Research, Mathematical Programming</Subject>
+
+					<Subject Type="Secondary" Priority="3"
+Code="M14018">Algorithms</Subject>
+
+					<Subject Type="Secondary" Priority="4"
+Code="M26016">Calculus of Variations and Optimal Control; Optimization</Subject>
+
+					<Subject Type="Secondary" Priority="5"
+Code="M14068">Mathematical Modeling and Industrial Mathematics</Subject>
+
+				</Subjects>
+
+				<Keywords>
+
+					<Keyword>simplicial algorithms Simplicial pivoting algorithms for integer programmingSimplicial algorithms</Keyword>
+
+					<Keyword>integer programming Simplicial pivoting algorithms for integer programmingInteger programming</Keyword>
+
+					<Keyword>knapsack problem Simplicial pivoting algorithms for integer programmingKnapsack problem</Keyword>
+
+					<Keyword>Horn formulas Simplicial pivoting algorithms for integer programmingHorn formulas</Keyword>
+
+				</Keywords>
+
+				<OpenAccess>false</OpenAccess>
+
+				<CopyrightHolder>Springer-Verlag</CopyrightHolder>
+
+				<ImageType>Image</ImageType>
+
+				<Provider>Springer</Provider>
+
+			</Image>
+
+		</record>
+
+		<record>
+
+			<Image Id="1-10.1007_s10836-008-5097-8-15">
+
+				<Caption>
+
+
+					<p>Solutions found by original inclusive and combined algorithms</p>
+
+
+				</Caption>
+
+				<File>
+
+					<Path
+Type="thumb">http://c0000571.cdn2.cloudfiles.rackspacecloud.com/table.jpg</Path>
+
+				</File>
+
+				<Location>http://www.springerimages.com/images/Engineering/1-10.1007_s10836-008-5097-8-15</Location>
+
+				<FullText>
+
+					<p>
+Table  12 lists the final solutions found by inclusive
+algorithms (Strategy 2 and Strategy 3 is adopted by every
+algorithm) and combined algorithms. .
+					</p>
+
+					<p>
+From Table  12 , it can be seen that no matter which inclusive
+algorithm is executed, if only exclusive method is appended, the
+final solution contains no redundant test points.
+					</p>
+
+				</FullText>
+
+				<VolumeId>25</VolumeId>
+
+				<IssueId>2</IssueId>
+
+				<Authors>
+
+					<Author>Yang, Chenglin</Author>
+
+					<Author>Tian, Shulin</Author>
+
+					<Author>Long, Bing</Author>
+
+				</Authors>
+
+				<Institutions>
+
+					<Institution>University of Electronic Science and Technology of China</Institution>
+
+				</Institutions>
+
+				<ArticleTitle>Test Points Selection for Analog Fault Dictionary Techniques</ArticleTitle>
+
+				<DOI>10.1007/s10836-008-5097-8</DOI>
+
+				<PubDate>2009-05-21</PubDate>
+
+				<SourceType>Article</SourceType>
+
+				<SourceTitle>Journal of Electronic Testing</SourceTitle>
+
+				<ISXN ISSN="1573-0727" ISBN="" EISBN="">1573-0727</ISXN>
+
+				<SubjectCollection>Engineering</SubjectCollection>
+
+				<Subjects>
+
+					<Subject Type="Primary">Engineering</Subject>
+
+					<Subject
+Type="Secondary">Computer-Aided Engineering (CAD, CAE) and Design</Subject>
+
+					<Subject Type="Secondary">Electrical Engineering</Subject>
+
+					<Subject Type="Secondary">Circuits and Systems</Subject>
+
+				</Subjects>
+
+				<Keywords>
+
+					<Keyword>Test points selection</Keyword>
+
+					<Keyword>Analog fault dictionary</Keyword>
+
+					<Keyword>Integer-Coded fault wise table</Keyword>
+
+					<Keyword>Test points selection strategy</Keyword>
+
+					<Keyword>Test points selection criterion</Keyword>
+
+				</Keywords>
+
+				<OpenAccess>false</OpenAccess>
+
+				<CopyrightHolder>Springer Science+Business Media, LLC</CopyrightHolder>
+
+				<ImageType>Table</ImageType>
+
+				<Provider>Springer</Provider>
+
+			</Image>
+
+		</record>
+
+		<record>
+
+			<Image Id="1-10.1007_s10291-009-0125-4-15">
+
+				<Caption>
+
+
+					<p>The computational operations for 32 samples of the existing bit-wise parallel algorithm and the enhanced algorithm</p>
+
+
+				</Caption>
+
+				<File>
+
+					<Path
+Type="thumb">http://c0000571.cdn2.cloudfiles.rackspacecloud.com/table.jpg</Path>
+
+				</File>
+
+				<Location>http://www.springerimages.com/images/Geosciences/1-10.1007_s10291-009-0125-4-15</Location>
+
+				<FullText>
+
+					<p>
+Thus, it requires 58 logic operations, 64 table look-up operation
+and 64 addition operations for 32 samples as listed in
+Table 7.
+					</p>
+
+					<p>
+For the 1-bit quantization approach, the amount of operations will
+then be reduced by half, as illustrated in Table 7. .
+					</p>
+
+					<p>
+Table 7 summarizes the comparison of the computational
+operations needed for 32 samples of the existing bit-wise parallel
+algorithm and the enhanced algorithm developed in this paper..
+					</p>
+
+					<p>
+
+						<p>As shown in Table 7, the enhanced algorithm reduces at
+least half of the operations for software correlation compared with
+the existing bit-wise parallel algorithm.</p>
+
+
+					</p>
+
+				</FullText>
+
+				<VolumeId>14</VolumeId>
+
+				<IssueId>2</IssueId>
+
+				<Authors>
+
+					<Author>Deng, Jiangping</Author>
+
+					<Author>Chen, Ruizhi</Author>
+
+					<Author>Wang, Jianyu</Author>
+
+				</Authors>
+
+				<Institutions>
+
+					<Institution>Chinese Academy of Sciences</Institution>
+
+					<Institution>Finnish Geodetic Institute</Institution>
+
+				</Institutions>
+
+				<ArticleTitle>An enhanced bit-wise parallel algorithm for real-time GPS software receiver</ArticleTitle>
+
+				<DOI>10.1007/s10291-009-0125-4</DOI>
+
+				<PubDate>2010-02-20</PubDate>
+
+				<SourceType>Article</SourceType>
+
+				<SourceTitle>GPS Solutions</SourceTitle>
+
+				<ISXN ISSN="1521-1886" ISBN="" EISBN="">1521-1886</ISXN>
+
+				<SubjectCollection>Geosciences</SubjectCollection>
+
+				<Subjects>
+
+					<Subject Type="Primary">Geosciences</Subject>
+
+					<Subject Type="Secondary">Electrical Engineering</Subject>
+
+					<Subject Type="Secondary">Automotive Engineering</Subject>
+
+					<Subject
+Type="Secondary">Extraterrestrial Physics, Space Sciences</Subject>
+
+					<Subject Type="Secondary">Meteorology/Climatology</Subject>
+
+					<Subject Type="Secondary">Geophysics/Geodesy</Subject>
+
+				</Subjects>
+
+				<Keywords>
+
+					<Keyword>Real time</Keyword>
+
+					<Keyword>Software receiver</Keyword>
+
+					<Keyword>Enhanced bit-wise parallel algorithm</Keyword>
+
+				</Keywords>
+
+				<OpenAccess>false</OpenAccess>
+
+				<CopyrightHolder>Springer-Verlag</CopyrightHolder>
+
+				<ImageType>Table</ImageType>
+
+				<Provider>Springer</Provider>
+
+			</Image>
+
+		</record>
+
+	</records>
+
+	<facets>
+
+		<facet name="subject">
+
+			<facet-value count="51630">Life Sciences</facet-value>
+
+			<facet-value count="50486">Algorithms</facet-value>
+
+			<facet-value
+count="48983">Computational Biology/Bioinformatics</facet-value>
+
+			<facet-value count="47907">Combinatorial Libraries</facet-value>
+
+			<facet-value count="47881">Microarrays</facet-value>
+
+			<facet-value count="26367">Bioinformatics</facet-value>
+
+			<facet-value
+count="25610">Computer Appl. in Life Sciences</facet-value>
+
+			<facet-value count="23383">Life Sciences, general</facet-value>
+
+			<facet-value
+count="23326">Plant Genetics &amp; Genomics</facet-value>
+
+			<facet-value
+count="23297">Microbial Genetics and Genomics</facet-value>
+
+			<facet-value
+count="23259">Animal Genetics and Genomics</facet-value>
+
+			<facet-value count="23043">Proteomics</facet-value>
+
+			<facet-value count="9605">Engineering</facet-value>
+
+			<facet-value count="7451">Computer Science</facet-value>
+
+			<facet-value
+count="5593">Medicine &amp; Public Health</facet-value>
+
+			<facet-value
+count="3415">Computer Communication Networks</facet-value>
+
+			<facet-value
+count="3336">Artificial Intelligence (incl. Robotics)</facet-value>
+
+			<facet-value count="2996">Electrical Engineering</facet-value>
+
+			<facet-value
+count="2950">Signal, Image and Speech Processing</facet-value>
+
+			<facet-value
+count="2451">Communications Engineering, Networks</facet-value>
+
+		</facet>
+
+		<facet name="keyword">
+
+			<facet-value count="7547">analysis</facet-value>
+
+			<facet-value count="6982">gene</facet-value>
+
+			<facet-value count="5666">expression</facet-value>
+
+			<facet-value count="5010">data</facet-value>
+
+			<facet-value count="3871">from</facet-value>
+
+			<facet-value count="3850">protein</facet-value>
+
+			<facet-value count="3571">genes</facet-value>
+
+			<facet-value count="2914">microarray</facet-value>
+
+			<facet-value count="2848">genome</facet-value>
+
+			<facet-value count="2330">human</facet-value>
+
+			<facet-value count="2288">prediction</facet-value>
+
+			<facet-value count="2233">sequence</facet-value>
+
+			<facet-value count="2080">based</facet-value>
+
+			<facet-value count="1721">biography</facet-value>
+
+			<facet-value count="1680">approach</facet-value>
+
+			<facet-value count="1665">networks</facet-value>
+
+			<facet-value count="1647">DNA</facet-value>
+
+			<facet-value count="1564">genomic</facet-value>
+
+			<facet-value count="1533">functional</facet-value>
+
+			<facet-value count="1499">proteins</facet-value>
+
+		</facet>
+
+		<facet name="year">
+
+			<facet-value count="3823">2011</facet-value>
+
+			<facet-value count="17408">2010</facet-value>
+
+			<facet-value count="16632">2009</facet-value>
+
+			<facet-value count="17421">2008</facet-value>
+
+			<facet-value count="11616">2007</facet-value>
+
+			<facet-value count="9073">2006</facet-value>
+
+			<facet-value count="4101">2005</facet-value>
+
+			<facet-value count="1641">2004</facet-value>
+
+			<facet-value count="1229">2003</facet-value>
+
+			<facet-value count="631">2002</facet-value>
+
+			<facet-value count="819">2001</facet-value>
+
+			<facet-value count="59">2000</facet-value>
+
+			<facet-value count="1">1999</facet-value>
+
+			<facet-value count="7">1998</facet-value>
+
+			<facet-value count="1">1997</facet-value>
+
+			<facet-value count="1">1996</facet-value>
+
+			<facet-value count="5">1995</facet-value>
+
+			<facet-value count="8">1994</facet-value>
+
+			<facet-value count="3">1992</facet-value>
+
+			<facet-value count="5">1991</facet-value>
+
+		</facet>
+
+		<facet name="type">
+
+			<facet-value count="44100">Line</facet-value>
+
+			<facet-value count="26472">Table</facet-value>
+
+			<facet-value count="13502">Image</facet-value>
+
+			<facet-value count="426">Line Art</facet-value>
+
+			<facet-value count="8">Video</facet-value>
+
+		</facet>
+
+		<facet name="imagetype">
+
+			<facet-value count="44100">Line</facet-value>
+
+			<facet-value count="26472">Table</facet-value>
+
+			<facet-value count="13502">Image</facet-value>
+
+			<facet-value count="426">Line Art</facet-value>
+
+			<facet-value count="8">Video</facet-value>
+
+		</facet>
+
+	</facets>
+
+</response>
